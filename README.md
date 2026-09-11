@@ -2,6 +2,14 @@
 
 A full-stack web application that predicts MLS property prices using a rule-based system that factors in interest rates, comparable listings, market trends, and other real estate metrics.
 
+## Map Preview
+
+The dashboard renders an interactive MapLibre map with the OpenFreeMap basemap. This preview shows the empty state before listing data is available.
+
+![Empty-state MLS map preview](docs/images/map-empty-state.png)
+
+> **Current status:** The Filters control is presently decorative; it does not yet apply search criteria to the map or listings.
+
 ## 🚀 Features
 
 - **Real-time MLS Data**: Integrates with RentCast API to fetch 100+ listings per week
@@ -12,7 +20,7 @@ A full-stack web application that predicts MLS property prices using a rule-base
   - Market trends
   - Seasonal adjustments
 - **Interactive Map**: MapLibre-based visualization with listing markers and popups
-- **Advanced Search**: Filter by location, price, beds, baths, property type
+- **Search Filters UI**: Controls for location, price, beds, baths, and property type (filter behavior is not implemented yet)
 - **Price Comparisons**: See predicted vs. list price with confidence scores
 - **Interest Rate Simulator**: Adjust interest rates to see impact on predicted prices
 
