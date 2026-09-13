@@ -1,0 +1,57 @@
+name: RentCast Fetch
+
+# Manual trigger only - RentCast free tier is capped at 50 calls/month,
+# so we don't want this firing automatically on every push. This is the
+# only workflow with access to the RENTCAST_PULL secret; persisting the
+# result is handed off to the reusable persist-json-data.yml workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: 'Query name from backend/config/rentcastQueries.ts'
+        required: false
+        default: 'seattle-wa-recent'
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    outputs:
+      artifact-name: ${{ steps.artifact.outputs.name }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+
+      - run: npm ci
+
+      - run: npm run fetch:rentcast -- "${{ inputs.query }}"
+        env:
+          RENTCAST_API_KEY: ${{ secrets.RENTCAST_PULL }}
+
+      - id: artifact
+        run: echo "name=rentcast-fetch-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.artifact.outputs.name }}
+          path: backend/data/rentcast/*.json
+          retention-days: 90
+
+  persist:
+    needs: fetch
+    permissions:
+      contents: write
+    uses: ./.github/workflows/persist-json-data.yml
+    with:
+      artifact-name: ${{ needs.fetch.outputs.artifact-name }}
+      dest-dir: data/rentcast

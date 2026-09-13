@@ -38,7 +38,7 @@ export async function fetchListings(filters: {
     });
 
     const response = await axios.get(
-      `${RENTCAST_API_URL}/listings/sale/search?${params}`,
+      `${RENTCAST_API_URL}/listings/sale?${params}`,
       {
         headers: {
           'X-API-Key': RENTCAST_API_KEY,

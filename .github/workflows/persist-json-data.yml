@@ -1,0 +1,41 @@
+name: Persist JSON Data
+
+# Reusable "write" workflow: takes a build artifact of JSON files and
+# commits it into a tracked directory so the data survives past the
+# artifact retention window, without wiring up a real database yet.
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        required: true
+        type: string
+      dest-dir:
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact-name }}
+          path: ${{ inputs.dest-dir }}
+
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ inputs.dest-dir }}"
+          if git diff --cached --quiet; then
+            echo "No new data files to commit."
+          else
+            git commit -m "data: persist ${{ inputs.artifact-name }}"
+            git push
+          fi

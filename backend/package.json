@@ -10,6 +10,7 @@
     "build": "tsc",
     "migrate": "node --loader tsx ./migrations/run.ts",
     "seed": "tsx ./migrations/seed.ts",
+    "fetch:rentcast": "tsx scripts/fetchRentcastListings.ts",
     "lint": "eslint src --ext .ts",
     "test": "vitest"
   },
