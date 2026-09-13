@@ -15,7 +15,7 @@ export const rentcastQueries: Record<string, RentcastSaleQuery> = {
     state: 'WA',
     status: 'Active',
     daysOld: 7,
-    limit: 5,
+    limit: 30,
   },
 };
 
