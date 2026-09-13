@@ -1,0 +1,1448 @@
+[
+  {
+    "id": "23-Prospect-St,-Seattle,-WA-98109",
+    "formattedAddress": "23 Prospect St, Seattle, WA 98109",
+    "addressLine1": "23 Prospect St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98109",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.628501,
+    "longitude": -122.355604,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3.5,
+    "squareFootage": 3410,
+    "lotSize": 3576,
+    "yearBuilt": 1918,
+    "status": "Active",
+    "price": 2895000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-07T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-08T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.419Z",
+    "daysOnMarket": 6,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579111",
+    "listingOffice": {
+      "name": "COMPASS"
+    },
+    "history": {
+      "2026-09-07": {
+        "event": "Sale Listing",
+        "price": 2895000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-07T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 6
+      }
+    }
+  },
+  {
+    "id": "7132-34th-Ave-SW,-Seattle,-WA-98126",
+    "formattedAddress": "7132 34th Ave SW, Seattle, WA 98126",
+    "addressLine1": "7132 34th Ave SW",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98126",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.538184,
+    "longitude": -122.374865,
+    "propertyType": "Condo",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1790,
+    "lotSize": 2914,
+    "yearBuilt": 1924,
+    "status": "Active",
+    "price": 659000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-07T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-30T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.408Z",
+    "daysOnMarket": 6,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579154",
+    "listingOffice": {
+      "name": "eXp Realty- Main Office"
+    },
+    "history": {
+      "2025-07-29": {
+        "event": "Sale Listing",
+        "price": 780000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-29T00:00:00.000Z",
+        "removedDate": "2025-10-29T00:00:00.000Z",
+        "daysOnMarket": 92
+      },
+      "2026-04-24": {
+        "event": "Sale Listing",
+        "price": 699000,
+        "listingType": "Standard",
+        "listedDate": "2026-04-24T00:00:00.000Z",
+        "removedDate": "2026-09-07T00:00:00.000Z",
+        "daysOnMarket": 136
+      },
+      "2026-09-07": {
+        "event": "Sale Listing",
+        "price": 659000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-07T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 6
+      }
+    }
+  },
+  {
+    "id": "8658-S-123rd-St,-Seattle,-WA-98178",
+    "formattedAddress": "8658 S 123rd St, Seattle, WA 98178",
+    "addressLine1": "8658 S 123rd St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98178",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.493338,
+    "longitude": -122.224555,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 2030,
+    "lotSize": 5467,
+    "yearBuilt": 1999,
+    "status": "Active",
+    "price": 798000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-07T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-05-20T15:08:09.517Z",
+    "lastSeenDate": "2026-09-12T09:33:56.406Z",
+    "daysOnMarket": 6,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2568017",
+    "listingOffice": {
+      "name": "WeLakeside"
+    },
+    "history": {
+      "2026-09-07": {
+        "event": "Sale Listing",
+        "price": 798000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-07T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 6
+      }
+    }
+  },
+  {
+    "id": "4302-S-Holden-St,-Seattle,-WA-98118",
+    "formattedAddress": "4302 S Holden St, Seattle, WA 98118",
+    "addressLine1": "4302 S Holden St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.533514,
+    "longitude": -122.278646,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1471,
+    "lotSize": 592,
+    "yearBuilt": 2025,
+    "status": "Active",
+    "price": 674950,
+    "listingType": "New Construction",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-02-23T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.403Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579257",
+    "listingOffice": {
+      "name": "The Sunny Company"
+    },
+    "history": {
+      "2025-02-22": {
+        "event": "Sale Listing",
+        "price": 734950,
+        "listingType": "New Construction",
+        "listedDate": "2025-02-22T00:00:00.000Z",
+        "removedDate": "2025-05-31T00:00:00.000Z",
+        "daysOnMarket": 98
+      },
+      "2025-09-05": {
+        "event": "Sale Listing",
+        "price": 699950,
+        "listingType": "New Construction",
+        "listedDate": "2025-09-05T00:00:00.000Z",
+        "removedDate": "2026-04-01T00:00:00.000Z",
+        "daysOnMarket": 208
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 674950,
+        "listingType": "New Construction",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "1508-37th-Ave-E,-Seattle,-WA-98112",
+    "formattedAddress": "1508 37th Ave E, Seattle, WA 98112",
+    "addressLine1": "1508 37th Ave E",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98112",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.632414,
+    "longitude": -122.285041,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 4.5,
+    "squareFootage": 3860,
+    "lotSize": 5001,
+    "yearBuilt": 2006,
+    "status": "Active",
+    "price": 3695000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.400Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2573422",
+    "listingOffice": {
+      "name": "Windermere Real Estate Midtown"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 3695000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "1115-8th-Ave-W,-Seattle,-WA-98119",
+    "formattedAddress": "1115 8th Ave W, Seattle, WA 98119",
+    "addressLine1": "1115 8th Ave W",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98119",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.629271,
+    "longitude": -122.368014,
+    "propertyType": "Single Family",
+    "bedrooms": 7,
+    "bathrooms": 1,
+    "squareFootage": 3420,
+    "lotSize": 4844,
+    "yearBuilt": 1959,
+    "status": "Active",
+    "price": 1395000,
+    "listingType": "Foreclosure",
+    "listedDate": "2026-09-07T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-03-15T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.397Z",
+    "daysOnMarket": 6,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579093",
+    "listingOffice": {
+      "name": "Compass - Seattle WA"
+    },
+    "history": {
+      "2026-06-20": {
+        "event": "Sale Listing",
+        "price": 1595000,
+        "listingType": "Foreclosure",
+        "listedDate": "2026-06-20T00:00:00.000Z",
+        "removedDate": "2026-07-23T00:00:00.000Z",
+        "daysOnMarket": 33
+      },
+      "2026-07-23": {
+        "event": "Sale Listing",
+        "price": 1495000,
+        "listingType": "Foreclosure",
+        "listedDate": "2026-07-23T00:00:00.000Z",
+        "removedDate": "2026-09-07T00:00:00.000Z",
+        "daysOnMarket": 46
+      },
+      "2026-09-07": {
+        "event": "Sale Listing",
+        "price": 1395000,
+        "listingType": "Foreclosure",
+        "listedDate": "2026-09-07T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 6
+      }
+    }
+  },
+  {
+    "id": "1-Ward-St,-Unit-3,-Seattle,-WA-98109",
+    "formattedAddress": "1 Ward St, Unit 3, Seattle, WA 98109",
+    "addressLine1": "1 Ward St",
+    "addressLine2": "Unit 3",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98109",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.627778,
+    "longitude": -122.356308,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1398,
+    "yearBuilt": 1909,
+    "hoa": {
+      "fee": 1281
+    },
+    "status": "Active",
+    "price": 784888,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-05-12T16:07:57.342Z",
+    "lastSeenDate": "2026-09-12T09:33:56.393Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579193",
+    "listingOffice": {
+      "name": "Dulay Homes LLC"
+    },
+    "history": {
+      "2026-07-22": {
+        "event": "Sale Listing",
+        "price": 839500,
+        "listingType": "Standard",
+        "listedDate": "2026-07-22T00:00:00.000Z",
+        "removedDate": "2026-09-08T00:00:00.000Z",
+        "daysOnMarket": 48
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 784888,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "9202-17th-Ave-SW,-Seattle,-WA-98106",
+    "formattedAddress": "9202 17th Ave SW, Seattle, WA 98106",
+    "addressLine1": "9202 17th Ave SW",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98106",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.520863,
+    "longitude": -122.35623,
+    "propertyType": "Multi-Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1920,
+    "lotSize": 3398,
+    "yearBuilt": 1939,
+    "status": "Active",
+    "price": 825000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-08T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.393Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579196",
+    "listingOffice": {
+      "name": "Upper Left Property Management"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 825000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "2600-2nd-Ave,-Apt-615,-Seattle,-WA-98121",
+    "formattedAddress": "2600 2nd Ave, Apt 615, Seattle, WA 98121",
+    "addressLine1": "2600 2nd Ave",
+    "addressLine2": "Apt 615",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98121",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.616393,
+    "longitude": -122.349027,
+    "propertyType": "Condo",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 685,
+    "yearBuilt": 1993,
+    "hoa": {
+      "fee": 851
+    },
+    "status": "Active",
+    "price": 349900,
+    "listingType": "Standard",
+    "listedDate": "2026-09-07T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-08T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.392Z",
+    "daysOnMarket": 6,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2564725",
+    "listingOffice": {
+      "name": "Wilson Management, Inc."
+    },
+    "history": {
+      "2026-09-07": {
+        "event": "Sale Listing",
+        "price": 349900,
+        "listingType": "Standard",
+        "listedDate": "2026-09-07T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 6
+      }
+    }
+  },
+  {
+    "id": "4511-Cascadia-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "4511 Cascadia Ave S, Seattle, WA 98118",
+    "addressLine1": "4511 Cascadia Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.562472,
+    "longitude": -122.283138,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1640,
+    "lotSize": 3001,
+    "yearBuilt": 1984,
+    "status": "Active",
+    "price": 925000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.392Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2564434",
+    "listingOffice": {
+      "name": "Windermere Real Estate Mount Baker "
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 925000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "12334-31st-Ave-NE,-Apt-607,-Seattle,-WA-98125",
+    "formattedAddress": "12334 31st Ave NE, Apt 607, Seattle, WA 98125",
+    "addressLine1": "12334 31st Ave NE",
+    "addressLine2": "Apt 607",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98125",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.718248,
+    "longitude": -122.294806,
+    "propertyType": "Condo",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 700,
+    "yearBuilt": 2004,
+    "hoa": {
+      "fee": 887
+    },
+    "status": "Active",
+    "price": 199000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-05-03T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.391Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579027",
+    "listingOffice": {
+      "name": "Windermere Northlake"
+    },
+    "history": {
+      "2026-05-02": {
+        "event": "Sale Listing",
+        "price": 249000,
+        "listingType": "Standard",
+        "listedDate": "2026-05-02T00:00:00.000Z",
+        "removedDate": "2026-07-16T00:00:00.000Z",
+        "daysOnMarket": 75
+      },
+      "2026-07-16": {
+        "event": "Sale Listing",
+        "price": 236000,
+        "listingType": "Standard",
+        "listedDate": "2026-07-16T00:00:00.000Z",
+        "removedDate": "2026-08-04T00:00:00.000Z",
+        "daysOnMarket": 19
+      },
+      "2026-08-07": {
+        "event": "Sale Listing",
+        "price": 236000,
+        "listingType": "Standard",
+        "listedDate": "2026-08-07T00:00:00.000Z",
+        "removedDate": "2026-09-08T00:00:00.000Z",
+        "daysOnMarket": 32
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 199000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "6000-17th-Ave-SW,-Apt-23,-Seattle,-WA-98106",
+    "formattedAddress": "6000 17th Ave SW, Apt 23, Seattle, WA 98106",
+    "addressLine1": "6000 17th Ave SW",
+    "addressLine2": "Apt 23",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98106",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.547631,
+    "longitude": -122.355427,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 1468,
+    "yearBuilt": 1999,
+    "hoa": {
+      "fee": 794
+    },
+    "status": "Active",
+    "price": 675000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.391Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2578734",
+    "listingOffice": {
+      "name": "Engel & Volkers Seattle Downtown"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 675000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "2743-Ne-103rd-St,-Seattle,-WA-98125",
+    "formattedAddress": "2743 Ne 103rd St, Seattle, WA 98125",
+    "addressLine1": "2743 Ne 103rd St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98125",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.702443,
+    "longitude": -122.297457,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 3040,
+    "lotSize": 7471,
+    "yearBuilt": 2004,
+    "status": "Active",
+    "price": 1429000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.389Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2577956",
+    "listingOffice": {
+      "name": "Windermere Real Estate Midtown"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 1429000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "5522-12th-Ave-NE,-Seattle,-WA-98105",
+    "formattedAddress": "5522 12th Ave NE, Seattle, WA 98105",
+    "addressLine1": "5522 12th Ave NE",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98105",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.669285,
+    "longitude": -122.314949,
+    "propertyType": "Single Family",
+    "bedrooms": 7,
+    "bathrooms": 2,
+    "squareFootage": 2430,
+    "lotSize": 4979,
+    "yearBuilt": 1908,
+    "status": "Active",
+    "price": 949000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.387Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2575287",
+    "listingOffice": {
+      "name": "Coldwell Banker Bain of Lake Union"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 949000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "2010-Mcgilvra-Blvd-E,-Seattle,-WA-98112",
+    "formattedAddress": "2010 Mcgilvra Blvd E, Seattle, WA 98112",
+    "addressLine1": "2010 Mcgilvra Blvd E",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98112",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.637337,
+    "longitude": -122.280556,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "squareFootage": 4882,
+    "lotSize": 3999,
+    "yearBuilt": 2026,
+    "status": "Active",
+    "price": 3898000,
+    "listingType": "New Construction",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.387Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2570136",
+    "listingOffice": {
+      "name": "COMPASS"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 3898000,
+        "listingType": "New Construction",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "5208-15th-Ave-S,-Seattle,-WA-98108",
+    "formattedAddress": "5208 15th Ave S, Seattle, WA 98108",
+    "addressLine1": "5208 15th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98108",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.555205,
+    "longitude": -122.313198,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 590,
+    "lotSize": 3158,
+    "yearBuilt": 1916,
+    "status": "Active",
+    "price": 410000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.386Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2577556",
+    "listingOffice": {
+      "name": "John L. Scott - Des Moines"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 410000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "8816-Nesbit-Ave-N,-Apt-203,-Seattle,-WA-98103",
+    "formattedAddress": "8816 Nesbit Ave N, Apt 203, Seattle, WA 98103",
+    "addressLine1": "8816 Nesbit Ave N",
+    "addressLine2": "Apt 203",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98103",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.692884,
+    "longitude": -122.343145,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "squareFootage": 712,
+    "yearBuilt": 1988,
+    "hoa": {
+      "fee": 563
+    },
+    "status": "Active",
+    "price": 329000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-04-15T11:20:22.833Z",
+    "lastSeenDate": "2026-09-12T09:33:56.385Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2576766",
+    "listingOffice": {
+      "name": "Windermere Real Estate/PSR Inc"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 329000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "2321-33rd-Ave-S,-Seattle,-WA-98144",
+    "formattedAddress": "2321 33rd Ave S, Seattle, WA 98144",
+    "addressLine1": "2321 33rd Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98144",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.5818,
+    "longitude": -122.291198,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 3540,
+    "lotSize": 5001,
+    "yearBuilt": 1910,
+    "status": "Active",
+    "price": 1495000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.383Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579207",
+    "listingOffice": {
+      "name": "Ewing & Clark - Madison St"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 1495000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "2244-13th-Ave-W,-Apt-313,-Seattle,-WA-98119",
+    "formattedAddress": "2244 13th Ave W, Apt 313, Seattle, WA 98119",
+    "addressLine1": "2244 13th Ave W",
+    "addressLine2": "Apt 313",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98119",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.639879,
+    "longitude": -122.373313,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 800,
+    "yearBuilt": 1990,
+    "hoa": {
+      "fee": 808
+    },
+    "status": "Active",
+    "price": 350000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-09-21T19:41:09.390Z",
+    "lastSeenDate": "2026-09-12T09:33:56.382Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2572657",
+    "listingOffice": {
+      "name": "Windermere RE Greenwood"
+    },
+    "history": {
+      "2026-07-08": {
+        "event": "Sale Listing",
+        "price": 399000,
+        "listingType": "Standard",
+        "listedDate": "2026-07-08T00:00:00.000Z",
+        "removedDate": "2026-09-08T00:00:00.000Z",
+        "daysOnMarket": 62
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 350000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "1218-Ne-103rd-St,-Seattle,-WA-98125",
+    "formattedAddress": "1218 Ne 103rd St, Seattle, WA 98125",
+    "addressLine1": "1218 Ne 103rd St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98125",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.703332,
+    "longitude": -122.314124,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 3414,
+    "lotSize": 1825,
+    "yearBuilt": 2026,
+    "hoa": {
+      "fee": 121
+    },
+    "status": "Active",
+    "price": 1995000,
+    "listingType": "New Construction",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-02-22T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.382Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579259",
+    "listingOffice": {
+      "name": "John L. Scott Mill Creek"
+    },
+    "history": {
+      "2025-02-21": {
+        "event": "Sale Listing",
+        "price": 785000,
+        "listingType": "Standard",
+        "listedDate": "2025-02-21T00:00:00.000Z",
+        "removedDate": "2025-02-26T00:00:00.000Z",
+        "daysOnMarket": 5
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 1995000,
+        "listingType": "New Construction",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "634-N-92nd-St,-Seattle,-WA-98103",
+    "formattedAddress": "634 N 92nd St, Seattle, WA 98103",
+    "addressLine1": "634 N 92nd St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98103",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.696155,
+    "longitude": -122.35046,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1553,
+    "lotSize": 4892,
+    "yearBuilt": 2026,
+    "status": "Active",
+    "price": 829900,
+    "listingType": "New Construction",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-05-06T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.381Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2573949",
+    "listingOffice": {
+      "name": "Windermere RE Greenwood"
+    },
+    "history": {
+      "2026-05-05": {
+        "event": "Sale Listing",
+        "price": 839900,
+        "listingType": "New Construction",
+        "listedDate": "2026-05-05T00:00:00.000Z",
+        "removedDate": "2026-07-02T00:00:00.000Z",
+        "daysOnMarket": 58
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 829900,
+        "listingType": "New Construction",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "209-32nd-Ave,-Seattle,-WA-98122",
+    "formattedAddress": "209 32nd Ave, Seattle, WA 98122",
+    "addressLine1": "209 32nd Ave",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98122",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.603488,
+    "longitude": -122.291938,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2610,
+    "lotSize": 5001,
+    "yearBuilt": 1990,
+    "status": "Active",
+    "price": 1599000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-08-06T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.380Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2578042",
+    "listingOffice": {
+      "name": "Windermere RE Greenwood"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 1599000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "721-Rainier-Ave-N,-Lot-12,-Seattle,-WA-98057",
+    "formattedAddress": "721 Rainier Ave N, Lot 12, Seattle, WA 98057",
+    "addressLine1": "721 Rainier Ave N",
+    "addressLine2": "Lot 12",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98057",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.494399,
+    "longitude": -122.219479,
+    "propertyType": "Land",
+    "lotSize": 10363,
+    "status": "Active",
+    "price": 75000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.379Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2578966",
+    "listingOffice": {
+      "name": "RE MAX Metro Realty"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 75000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "1622-5th-Ave-N,-Seattle,-WA-98109",
+    "formattedAddress": "1622 5th Ave N, Seattle, WA 98109",
+    "addressLine1": "1622 5th Ave N",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98109",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.633865,
+    "longitude": -122.346786,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 4720,
+    "lotSize": 9500,
+    "yearBuilt": 1924,
+    "status": "Active",
+    "price": 3775000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.378Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2578436",
+    "listingOffice": {
+      "name": "WRE Seattle-Eastlake"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 3775000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "6331-42nd-Ave-Sw-Unit-A,-Seattle,-WA-98136",
+    "formattedAddress": "6331 42nd Ave Sw Unit A, Seattle, WA 98136",
+    "addressLine1": "6331 42nd Ave Sw Unit A",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98136",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.545748,
+    "longitude": -122.386233,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1.5,
+    "squareFootage": 1390,
+    "lotSize": 1137,
+    "yearBuilt": 2006,
+    "status": "Active",
+    "price": 685000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.375Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579279",
+    "listingOffice": {
+      "name": "Berkshire Hathaway HomeServices Northwest Real Estate - Burien Office"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 685000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "1043-S-Cloverdale-St,-Seattle,-WA-98108",
+    "formattedAddress": "1043 S Cloverdale St, Seattle, WA 98108",
+    "addressLine1": "1043 S Cloverdale St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98108",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.526205,
+    "longitude": -122.318401,
+    "propertyType": "Condo",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 2434,
+    "lotSize": 3054,
+    "yearBuilt": 1912,
+    "hoa": {
+      "fee": 25
+    },
+    "status": "Active",
+    "price": 649950,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-09-09T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.374Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2572643",
+    "listingOffice": {
+      "name": "Real Residential - Seattle"
+    },
+    "history": {
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 649950,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "500-Fifth-Ave-W,-Unit-505,-Seattle,-WA-98119",
+    "formattedAddress": "500 Fifth Ave W, Unit 505, Seattle, WA 98119",
+    "addressLine1": "500 Fifth Ave W",
+    "addressLine2": "Unit 505",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98119",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.623552,
+    "longitude": -122.362873,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 966,
+    "yearBuilt": 1968,
+    "hoa": {
+      "fee": 924
+    },
+    "status": "Active",
+    "price": 545000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-05-27T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:33:56.372Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579151",
+    "listingOffice": {
+      "name": "Windermere Real Estate Midtown"
+    },
+    "history": {
+      "2026-05-26": {
+        "event": "Sale Listing",
+        "price": 575000,
+        "listingType": "Standard",
+        "listedDate": "2026-05-26T00:00:00.000Z",
+        "removedDate": "2026-07-25T00:00:00.000Z",
+        "daysOnMarket": 60
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 545000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "5506-Ne-Penrith-Rd,-Seattle,-WA-98105",
+    "formattedAddress": "5506 Ne Penrith Rd, Seattle, WA 98105",
+    "addressLine1": "5506 Ne Penrith Rd",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98105",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.667211,
+    "longitude": -122.268199,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 4.5,
+    "squareFootage": 4620,
+    "lotSize": 11099,
+    "yearBuilt": 2000,
+    "status": "Active",
+    "price": 4750000,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-06-20T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:05:35.833Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579496",
+    "listingOffice": {
+      "name": "Windermere Real Estate Midtown"
+    },
+    "history": {
+      "2026-06-19": {
+        "event": "Sale Listing",
+        "price": 5250000,
+        "listingType": "Standard",
+        "listedDate": "2026-06-19T00:00:00.000Z",
+        "removedDate": "2026-09-08T00:00:00.000Z",
+        "daysOnMarket": 81
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 4750000,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "323-Queen-Anne-Ave-N,-Apt-217,-Seattle,-WA-98109",
+    "formattedAddress": "323 Queen Anne Ave N, Apt 217, Seattle, WA 98109",
+    "addressLine1": "323 Queen Anne Ave N",
+    "addressLine2": "Apt 217",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98109",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.621607,
+    "longitude": -122.357112,
+    "propertyType": "Condo",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 692,
+    "yearBuilt": 1999,
+    "hoa": {
+      "fee": 690
+    },
+    "status": "Active",
+    "price": 427500,
+    "listingType": "Standard",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-09-21T20:38:37.478Z",
+    "lastSeenDate": "2026-09-12T09:05:35.832Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579621",
+    "listingOffice": {
+      "name": "Compass - Seattle WA"
+    },
+    "history": {
+      "2026-07-22": {
+        "event": "Sale Listing",
+        "price": 450000,
+        "listingType": "Standard",
+        "listedDate": "2026-07-22T00:00:00.000Z",
+        "removedDate": "2026-09-08T00:00:00.000Z",
+        "daysOnMarket": 48
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 427500,
+        "listingType": "Standard",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  },
+  {
+    "id": "3938-S-Angeline-St,-Seattle,-WA-98118",
+    "formattedAddress": "3938 S Angeline St, Seattle, WA 98118",
+    "addressLine1": "3938 S Angeline St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.559597,
+    "longitude": -122.281776,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 911,
+    "yearBuilt": 2026,
+    "hoa": {
+      "fee": 75
+    },
+    "status": "Active",
+    "price": 649950,
+    "listingType": "New Construction",
+    "listedDate": "2026-09-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2026-06-13T00:00:00.000Z",
+    "lastSeenDate": "2026-09-12T09:05:35.832Z",
+    "daysOnMarket": 5,
+    "mlsName": "NWMLS",
+    "mlsNumber": "2579158",
+    "listingOffice": {
+      "name": "Real Residential - Seattle"
+    },
+    "history": {
+      "2026-06-12": {
+        "event": "Sale Listing",
+        "price": 729000,
+        "listingType": "New Construction",
+        "listedDate": "2026-06-12T00:00:00.000Z",
+        "removedDate": "2026-07-03T00:00:00.000Z",
+        "daysOnMarket": 21
+      },
+      "2026-09-08": {
+        "event": "Sale Listing",
+        "price": 649950,
+        "listingType": "New Construction",
+        "listedDate": "2026-09-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 5
+      }
+    }
+  }
+]
