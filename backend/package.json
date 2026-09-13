@@ -11,6 +11,7 @@
     "migrate": "node --loader tsx ./migrations/run.ts",
     "seed": "tsx ./migrations/seed.ts",
     "fetch:rentcast": "tsx scripts/fetchRentcastListings.ts",
+    "fetch:property-records": "tsx scripts/fetchPropertyRecords.ts",
     "lint": "eslint src --ext .ts",
     "test": "vitest"
   },
