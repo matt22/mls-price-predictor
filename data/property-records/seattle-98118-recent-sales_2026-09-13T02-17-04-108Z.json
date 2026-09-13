@@ -1,0 +1,1748 @@
+[
+  {
+    "id": "8437-Seward-Park-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "8437 Seward Park Ave S, Seattle, WA 98118",
+    "addressLine1": "8437 Seward Park Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.527266,
+    "longitude": -122.265933,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 960,
+    "lotSize": 6000,
+    "yearBuilt": 1942,
+    "assessorID": "3336000880",
+    "legalDescription": "HILLMANS C D ATLANTIC CITY ADD PLAT BLOCK: 7 PLAT LOT: 14-15",
+    "subdivision": "HILLMANS C D ATLANTIC CITY ADD",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-18T00:00:00.000Z",
+    "lastSalePrice": 637500,
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Detached",
+      "heating": true,
+      "heatingType": "Radiant",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2023": {
+        "year": 2023,
+        "value": 437000,
+        "land": 430000,
+        "improvements": 7000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 462000,
+        "land": 461000,
+        "improvements": 1000
+      }
+    },
+    "propertyTaxes": {
+      "2024": {
+        "year": 2024,
+        "total": 5032
+      }
+    },
+    "history": {
+      "2017-08-04": {
+        "event": "Sale",
+        "date": "2017-08-04T00:00:00.000Z",
+        "price": 450000
+      },
+      "2026-05-18": {
+        "event": "Sale",
+        "date": "2026-05-18T00:00:00.000Z",
+        "price": 637500
+      }
+    }
+  },
+  {
+    "id": "4812-S-Brandon-St,-Seattle,-WA-98118",
+    "formattedAddress": "4812 S Brandon St, Seattle, WA 98118",
+    "addressLine1": "4812 S Brandon St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.553569,
+    "longitude": -122.271963,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 990,
+    "lotSize": 4000,
+    "yearBuilt": 1919,
+    "assessorID": "5583200260",
+    "legalDescription": "MONTANA ADD TO COLUMBIA CITY 17 & W 10 FT OF 18 PLAT BLOCK: 2 PLAT LOT: 17-18",
+    "subdivision": "MONTANA ADD TO COLUMBIA CITY",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-20T00:00:00.000Z",
+    "lastSalePrice": 800000,
+    "features": {
+      "floorCount": 1,
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 717000,
+        "land": 262000,
+        "improvements": 455000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 717000,
+        "land": 262000,
+        "improvements": 455000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 602000,
+        "land": 303000,
+        "improvements": 299000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 6333
+      },
+      "2024": {
+        "year": 2024,
+        "total": 6075
+      }
+    },
+    "history": {
+      "2022-01-13": {
+        "event": "Sale",
+        "date": "2022-01-13T00:00:00.000Z",
+        "price": 714000
+      },
+      "2026-05-20": {
+        "event": "Sale",
+        "date": "2026-05-20T00:00:00.000Z",
+        "price": 800000
+      }
+    }
+  },
+  {
+    "id": "8607-42nd-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "8607 42nd Ave S, Seattle, WA 98118",
+    "addressLine1": "8607 42nd Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.525799,
+    "longitude": -122.281208,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1060,
+    "lotSize": 8050,
+    "yearBuilt": 1902,
+    "assessorID": "4006000472",
+    "legalDescription": "LAKE DELL S 57.5 FT OF N 122.5 FT OF E 140 FT PLAT BLOCK: PLAT LOT: 23",
+    "subdivision": "LAKE DELL",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-20T00:00:00.000Z",
+    "lastSalePrice": 613000,
+    "features": {
+      "floorCount": 1,
+      "garage": true,
+      "garageSpaces": 1,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 506000,
+        "land": 472000,
+        "improvements": 34000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 585000,
+        "land": 522000,
+        "improvements": 63000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 585000,
+        "land": 522000,
+        "improvements": 63000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 560000,
+        "land": 559000,
+        "improvements": 1000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 5613
+      },
+      "2024": {
+        "year": 2024,
+        "total": 6098
+      }
+    },
+    "history": {
+      "2014-01-31": {
+        "event": "Sale",
+        "date": "2014-01-31T00:00:00.000Z",
+        "price": 248000
+      },
+      "2026-05-20": {
+        "event": "Sale",
+        "date": "2026-05-20T00:00:00.000Z",
+        "price": 613000
+      }
+    }
+  },
+  {
+    "id": "8643-Wabash-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "8643 Wabash Ave S, Seattle, WA 98118",
+    "addressLine1": "8643 Wabash Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.525741,
+    "longitude": -122.265363,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 900,
+    "lotSize": 6000,
+    "yearBuilt": 1905,
+    "assessorID": "3336001485",
+    "legalDescription": "HILLMANS C D ATLANTIC CITY ADD PLAT BLOCK: 12 PLAT LOT: 8-9",
+    "subdivision": "HILLMANS C D ATLANTIC CITY ADD",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-20T00:00:00.000Z",
+    "lastSalePrice": 625000,
+    "features": {
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Detached",
+      "heating": true,
+      "heatingType": "Floor / Wall",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 544000,
+        "land": 430000,
+        "improvements": 114000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 544000,
+        "land": 430000,
+        "improvements": 114000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 534000,
+        "land": 461000,
+        "improvements": 73000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 5105
+      },
+      "2024": {
+        "year": 2024,
+        "total": 5694
+      }
+    },
+    "history": {
+      "2016-10-18": {
+        "event": "Sale",
+        "date": "2016-10-18T00:00:00.000Z",
+        "price": 403500
+      },
+      "2026-05-20": {
+        "event": "Sale",
+        "date": "2026-05-20T00:00:00.000Z",
+        "price": 625000
+      }
+    }
+  },
+  {
+    "id": "4026-48th-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "4026 48th Ave S, Seattle, WA 98118",
+    "addressLine1": "4026 48th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.566819,
+    "longitude": -122.272932,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1450,
+    "lotSize": 7200,
+    "yearBuilt": 1954,
+    "assessorID": "4154303225",
+    "legalDescription": "LAKEWOOD REPL PTN MAYNARDS LK WN PLAT BLOCK: 80 PLAT LOT: 9-10",
+    "subdivision": "LAKEWOOD REPL PTN MAYNARDS LAK",
+    "zoning": "SF 7200",
+    "lastSaleDate": "2026-05-20T00:00:00.000Z",
+    "lastSalePrice": 1375000,
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1,
+      "viewType": "City"
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 1540000,
+        "land": 596000,
+        "improvements": 944000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 1362000,
+        "land": 736000,
+        "improvements": 626000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 13367
+      },
+      "2024": {
+        "year": 2024,
+        "total": 13428
+      }
+    },
+    "history": {
+      "2015-12-17": {
+        "event": "Sale",
+        "date": "2015-12-17T00:00:00.000Z",
+        "price": 399750
+      },
+      "2026-05-20": {
+        "event": "Sale",
+        "date": "2026-05-20T00:00:00.000Z",
+        "price": 1375000
+      }
+    }
+  },
+  {
+    "id": "4625-48th-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "4625 48th Ave S, Seattle, WA 98118",
+    "addressLine1": "4625 48th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.56091,
+    "longitude": -122.273609,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 980,
+    "lotSize": 7200,
+    "yearBuilt": 1940,
+    "assessorID": "4154302775",
+    "legalDescription": "LAKEWOOD REPL PTN MAYNARDS LK WN PLAT BLOCK: 69 PLAT LOT: 21-22",
+    "subdivision": "LAKEWOOD REPL PTN MAYNARDS LAK",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-20T00:00:00.000Z",
+    "lastSalePrice": 959000,
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1,
+      "viewType": "City"
+    },
+    "taxAssessments": {
+      "2023": {
+        "year": 2023,
+        "value": 842000,
+        "land": 395000,
+        "improvements": 447000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 777000,
+        "land": 459000,
+        "improvements": 318000
+      }
+    },
+    "propertyTaxes": {
+      "2024": {
+        "year": 2024,
+        "total": 8223
+      }
+    },
+    "history": {
+      "1997-08-29": {
+        "event": "Sale",
+        "date": "1997-08-29T00:00:00.000Z",
+        "price": 167500
+      },
+      "2026-05-20": {
+        "event": "Sale",
+        "date": "2026-05-20T00:00:00.000Z",
+        "price": 959000
+      }
+    }
+  },
+  {
+    "id": "8603-Renton-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "8603 Renton Ave S, Seattle, WA 98118",
+    "addressLine1": "8603 Renton Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.525931,
+    "longitude": -122.277313,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "squareFootage": 880,
+    "lotSize": 9000,
+    "yearBuilt": 1919,
+    "assessorID": "3420100110",
+    "legalDescription": "HOLMES & LAWRENCE 4TH ADD 1-2 & 11-12 & N 10 FT OF 3 LESS W 100 FT SD 11-12 & LESS RENTON AVE PLAT BLOCK: 3 PLAT LOT: POR",
+    "subdivision": "HOLMES & LAWRENCE 4TH ADD",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-21T00:00:00.000Z",
+    "lastSalePrice": 690000,
+    "features": {
+      "floorCount": 1,
+      "heatingType": "Gravity",
+      "heating": true,
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2018": {
+        "year": 2018,
+        "value": 251000,
+        "land": 148000,
+        "improvements": 103000
+      },
+      "2019": {
+        "year": 2019,
+        "value": 299000,
+        "land": 168000,
+        "improvements": 131000
+      },
+      "2020": {
+        "year": 2020,
+        "value": 318000,
+        "land": 201000,
+        "improvements": 117000
+      },
+      "2021": {
+        "year": 2021,
+        "value": 413000,
+        "land": 412000,
+        "improvements": 1000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 299000,
+        "land": 168000,
+        "improvements": 131000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 299000,
+        "land": 168000,
+        "improvements": 131000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 299000,
+        "land": 168000,
+        "improvements": 131000
+      }
+    },
+    "propertyTaxes": {
+      "2018": {
+        "year": 2018,
+        "total": 3016
+      },
+      "2019": {
+        "year": 2019,
+        "total": 3144
+      },
+      "2020": {
+        "year": 2020,
+        "total": 1376
+      },
+      "2021": {
+        "year": 2021,
+        "total": 1438
+      },
+      "2022": {
+        "year": 2022,
+        "total": 1411
+      },
+      "2024": {
+        "year": 2024,
+        "total": 1453
+      }
+    },
+    "history": {
+      "2002-04-29": {
+        "event": "Sale",
+        "date": "2002-04-29T00:00:00.000Z",
+        "price": 165000
+      },
+      "2003-01-28": {
+        "event": "Sale",
+        "date": "2003-01-28T00:00:00.000Z",
+        "price": 165000
+      },
+      "2025-10-30": {
+        "event": "Sale",
+        "date": "2025-10-30T00:00:00.000Z",
+        "price": 355000
+      },
+      "2026-05-21": {
+        "event": "Sale",
+        "date": "2026-05-21T00:00:00.000Z",
+        "price": 690000
+      }
+    }
+  },
+  {
+    "id": "9500-Rainier-Ave-S,-Apt-612,-Seattle,-WA-98118",
+    "formattedAddress": "9500 Rainier Ave S, Apt 612, Seattle, WA 98118",
+    "addressLine1": "9500 Rainier Ave S",
+    "addressLine2": "Apt 612",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.520336,
+    "longitude": -122.260655,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1088,
+    "lotSize": 129500,
+    "yearBuilt": 1967,
+    "assessorID": "7922640720",
+    "legalDescription": "SPINNAKER BAY CONDOMINIUM PCT OF VALUE 2.0967 PLAT BLOCK: PLAT LOT:",
+    "subdivision": "SPINNAKER BAY CONDO",
+    "zoning": "NC230",
+    "lastSaleDate": "2026-05-22T00:00:00.000Z",
+    "lastSalePrice": 530000,
+    "hoa": {
+      "fee": 1563
+    },
+    "features": {
+      "architectureType": "Condo / Apartment",
+      "fireplace": true,
+      "floorCount": 6,
+      "unitCount": 119,
+      "viewType": "Lake"
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 391000,
+        "land": 88000,
+        "improvements": 303000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 391000,
+        "land": 88000,
+        "improvements": 303000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 490000,
+        "land": 88000,
+        "improvements": 402000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 3274
+      },
+      "2024": {
+        "year": 2024,
+        "total": 4622
+      }
+    },
+    "history": {
+      "2018-04-03": {
+        "event": "Sale",
+        "date": "2018-04-03T00:00:00.000Z",
+        "price": 480000
+      },
+      "2026-05-22": {
+        "event": "Sale",
+        "date": "2026-05-22T00:00:00.000Z",
+        "price": 530000
+      }
+    }
+  },
+  {
+    "id": "5151-S-Orchard-St,-Seattle,-WA-98118",
+    "formattedAddress": "5151 S Orchard St, Seattle, WA 98118",
+    "addressLine1": "5151 S Orchard St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.537737,
+    "longitude": -122.267946,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1530,
+    "lotSize": 6840,
+    "yearBuilt": 1924,
+    "assessorID": "1109000090",
+    "legalDescription": "BRIGHTON BEACH ORCHARD 2ND SUPL N 30 FT OF 16 & ALL 17 PLAT BLOCK: 10 PLAT LOT: 16-17",
+    "subdivision": "BRIGHTON BEACH ORCHARD 2ND SUP",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-22T00:00:00.000Z",
+    "lastSalePrice": 1170000,
+    "features": {
+      "floorCount": 2,
+      "garage": true,
+      "garageType": "Detached",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2024": {
+        "year": 2024,
+        "value": 898000,
+        "land": 401000,
+        "improvements": 497000
+      }
+    },
+    "propertyTaxes": {
+      "2024": {
+        "year": 2024,
+        "total": 8978
+      }
+    },
+    "history": {
+      "2008-10-28": {
+        "event": "Sale",
+        "date": "2008-10-28T00:00:00.000Z",
+        "price": 487000
+      },
+      "2026-05-22": {
+        "event": "Sale",
+        "date": "2026-05-22T00:00:00.000Z",
+        "price": 1170000
+      }
+    }
+  },
+  {
+    "id": "4930-S-Holly-St,-Seattle,-WA-98118",
+    "formattedAddress": "4930 S Holly St, Seattle, WA 98118",
+    "addressLine1": "4930 S Holly St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.542599,
+    "longitude": -122.270153,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 2380,
+    "lotSize": 5096,
+    "yearBuilt": 2011,
+    "assessorID": "1105000404",
+    "legalDescription": "BRIGHTON BEACH ACRE TRACTS ADD \"PARCEL A\" SEATTLE SHORT SUBDIVISION NO 3001942 REC NO 20071228900004 SD SHORT SUBDIVISION DAF -- TRACT 40 OF BRIGHTON BEACH ACRE TRACTS ADDITION TO THE CITY OF SEATTLE PLAT LESS THE NORTH 190.00 FT THOF PLAT BLOCK: PLA",
+    "subdivision": "BRIGHTON BEACH ACRE TRACTS",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-26T00:00:00.000Z",
+    "lastSalePrice": 1308000,
+    "features": {
+      "fireplace": true,
+      "floorCount": 2,
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air"
+    },
+    "taxAssessments": {
+      "2020": {
+        "year": 2020,
+        "value": 944000,
+        "land": 286000,
+        "improvements": 658000
+      },
+      "2021": {
+        "year": 2021,
+        "value": 1036000,
+        "land": 314000,
+        "improvements": 722000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 1238000,
+        "land": 371000,
+        "improvements": 867000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 1054000,
+        "land": 396000,
+        "improvements": 658000
+      }
+    },
+    "propertyTaxes": {
+      "2021": {
+        "year": 2021,
+        "total": 9407
+      },
+      "2022": {
+        "year": 2022,
+        "total": 10740
+      },
+      "2024": {
+        "year": 2024,
+        "total": 10383
+      }
+    },
+    "history": {
+      "2017-05-02": {
+        "event": "Sale",
+        "date": "2017-05-02T00:00:00.000Z",
+        "price": 850000
+      },
+      "2026-05-26": {
+        "event": "Sale",
+        "date": "2026-05-26T00:00:00.000Z",
+        "price": 1308000
+      }
+    }
+  },
+  {
+    "id": "8110-49th-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "8110 49th Ave S, Seattle, WA 98118",
+    "addressLine1": "8110 49th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.529938,
+    "longitude": -122.271492,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 1,
+    "squareFootage": 1510,
+    "lotSize": 5000,
+    "yearBuilt": 1959,
+    "assessorID": "5621100005",
+    "legalDescription": "MOORES TO RAINIER BOULEVARD PARK 1 & N 15 FT OF 2 & POR NE 1/4 OF NE 1/4 BETW N LN OF 1 & LN 4 FT NLY OF & PLLW SD LN & BETW E & W LNS OF SD 1 EXT N PLAT BLOCK: 1 PLAT LOT: 1-2",
+    "subdivision": "MOORES ADD TO RAINIER BLVD PAR",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-26T00:00:00.000Z",
+    "lastSalePrice": 283500,
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 535000,
+        "land": 283000,
+        "improvements": 252000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 525000,
+        "land": 303000,
+        "improvements": 222000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 5032
+      },
+      "2024": {
+        "year": 2024,
+        "total": 5519
+      }
+    },
+    "history": {
+      "2006-04-24": {
+        "event": "Sale",
+        "date": "2006-04-24T00:00:00.000Z",
+        "price": 269950
+      },
+      "2017-06-19": {
+        "event": "Sale",
+        "date": "2017-06-19T00:00:00.000Z",
+        "price": 277000
+      },
+      "2020-09-25": {
+        "event": "Sale",
+        "date": "2020-09-25T00:00:00.000Z",
+        "price": 56744
+      },
+      "2026-05-26": {
+        "event": "Sale",
+        "date": "2026-05-26T00:00:00.000Z",
+        "price": 283500
+      }
+    }
+  },
+  {
+    "id": "4131-Lexington-Pl-S,-Seattle,-WA-98118",
+    "formattedAddress": "4131 Lexington Pl S, Seattle, WA 98118",
+    "addressLine1": "4131 Lexington Pl S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.56528,
+    "longitude": -122.291641,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "squareFootage": 1260,
+    "lotSize": 4661,
+    "yearBuilt": 1998,
+    "assessorID": "1607100163",
+    "legalDescription": "CLAREMONT HOME TRACTS POR TGW POR TR B & LOTS 8 & 9 BLK 7 CLAREMONT ADD DAF - BEG NXN OF N LN SD LOT 13 & ELY LN OF WLY 156 FT SD LOT TH S 12-38-48 E ALG SD ELY LN 65.6 FT TO POB TH S 89-57-52 E PLW N LN SD LOT 13 128.03 FT TO WLY LN OF 6 FT WIDE POR",
+    "subdivision": "CLAREMONT HOME TRACTS",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-28T00:00:00.000Z",
+    "lastSalePrice": 116000,
+    "features": {
+      "floorCount": 2,
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 571000,
+        "land": 272000,
+        "improvements": 299000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 543000,
+        "land": 356000,
+        "improvements": 187000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 5148
+      },
+      "2024": {
+        "year": 2024,
+        "total": 5378
+      }
+    },
+    "history": {
+      "2001-06-25": {
+        "event": "Sale",
+        "date": "2001-06-25T00:00:00.000Z",
+        "price": 157000
+      },
+      "2026-05-28": {
+        "event": "Sale",
+        "date": "2026-05-28T00:00:00.000Z",
+        "price": 116000
+      }
+    }
+  },
+  {
+    "id": "3538-S-Dawson-St,-Seattle,-WA-98118",
+    "formattedAddress": "3538 S Dawson St, Seattle, WA 98118",
+    "addressLine1": "3538 S Dawson St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.555327,
+    "longitude": -122.287734,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1230,
+    "lotSize": 9600,
+    "yearBuilt": 1952,
+    "assessorID": "2660500365",
+    "legalDescription": "FRYES ADD TO COLUMBIA E 80 FT OF W 170 FT MEAS ON N LN LESS ST PLAT BLOCK: PLAT LOT: 29",
+    "subdivision": "FRYES ADD TO COLUMBIA",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-29T00:00:00.000Z",
+    "lastSalePrice": 545000,
+    "hoa": {
+      "fee": 6
+    },
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "garage": true,
+      "garageSpaces": 1,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2020": {
+        "year": 2020,
+        "value": 554000,
+        "land": 553000,
+        "improvements": 1000
+      },
+      "2021": {
+        "year": 2021,
+        "value": 631000,
+        "land": 630000,
+        "improvements": 1000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 698000,
+        "land": 697000,
+        "improvements": 1000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 698000,
+        "land": 697000,
+        "improvements": 1000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 748000,
+        "land": 747000,
+        "improvements": 1000
+      }
+    },
+    "propertyTaxes": {
+      "2021": {
+        "year": 2021,
+        "total": 5933
+      },
+      "2022": {
+        "year": 2022,
+        "total": 6531
+      },
+      "2024": {
+        "year": 2024,
+        "total": 7571
+      }
+    },
+    "history": {
+      "2022-06-01": {
+        "event": "Sale",
+        "date": "2022-06-01T00:00:00.000Z",
+        "price": 1300000
+      },
+      "2026-03-09": {
+        "event": "Sale",
+        "date": "2026-03-09T00:00:00.000Z",
+        "price": 655000
+      },
+      "2026-05-29": {
+        "event": "Sale",
+        "date": "2026-05-29T00:00:00.000Z",
+        "price": 545000
+      }
+    }
+  },
+  {
+    "id": "4416-S-Morgan-St,-Seattle,-WA-98118",
+    "formattedAddress": "4416 S Morgan St, Seattle, WA 98118",
+    "addressLine1": "4416 S Morgan St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.544417,
+    "longitude": -122.27737,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "squareFootage": 1370,
+    "lotSize": 9525,
+    "yearBuilt": 1901,
+    "assessorID": "3812400230",
+    "legalDescription": "KELSEYS BRIGHTON BEACH ACRE TRS W 75 FT S OF ALLEY LESS ST PLAT BLOCK: PLAT LOT: 17",
+    "subdivision": "KELSEYS BRIGHTON BEACH ACRE TR",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-05-29T00:00:00.000Z",
+    "lastSalePrice": 600000,
+    "features": {
+      "floorCount": 2,
+      "garage": true,
+      "garageType": "Carport",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 248000,
+        "land": 110000,
+        "improvements": 138000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 248000,
+        "land": 110000,
+        "improvements": 138000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 1317
+      },
+      "2024": {
+        "year": 2024,
+        "total": 1367
+      }
+    },
+    "history": {
+      "2026-05-29": {
+        "event": "Sale",
+        "date": "2026-05-29T00:00:00.000Z",
+        "price": 600000
+      }
+    }
+  },
+  {
+    "id": "7919-45th-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "7919 45th Ave S, Seattle, WA 98118",
+    "addressLine1": "7919 45th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.530963,
+    "longitude": -122.27618,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 700,
+    "lotSize": 5304,
+    "yearBuilt": 1951,
+    "assessorID": "0402000195",
+    "legalDescription": "BALCHS PARK AVENUE PLAT BLOCK: 2 PLAT LOT: 23",
+    "subdivision": "BALCHS PARK AVE",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-04T00:00:00.000Z",
+    "lastSalePrice": 499000,
+    "features": {
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Carport",
+      "heating": true,
+      "heatingType": "Floor / Wall",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2024": {
+        "year": 2024,
+        "value": 87000,
+        "land": 35000,
+        "improvements": 52000
+      }
+    },
+    "propertyTaxes": {
+      "2024": {
+        "year": 2024,
+        "total": 806
+      }
+    },
+    "history": {
+      "1991-03-13": {
+        "event": "Sale",
+        "date": "1991-03-13T00:00:00.000Z",
+        "price": 64000
+      },
+      "2026-06-04": {
+        "event": "Sale",
+        "date": "2026-06-04T00:00:00.000Z",
+        "price": 499000
+      }
+    }
+  },
+  {
+    "id": "4402-S-Othello-St,-Seattle,-WA-98118",
+    "formattedAddress": "4402 S Othello St, Seattle, WA 98118",
+    "addressLine1": "4402 S Othello St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.537269,
+    "longitude": -122.277873,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1380,
+    "lotSize": 4720,
+    "yearBuilt": 1908,
+    "assessorID": "1005000130",
+    "legalDescription": "BOWENS REPLAT OF RAINIER GARDENS W 48 FT LESS ST PLAT BLOCK: 2 PLAT LOT: 9-10",
+    "subdivision": "BOWENS REP OF RAINIER GARDENS",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-05T00:00:00.000Z",
+    "lastSalePrice": 435000,
+    "features": {
+      "floorCount": 2,
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 435000,
+        "land": 368000,
+        "improvements": 67000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 502000,
+        "land": 407000,
+        "improvements": 95000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 436000,
+        "land": 435000,
+        "improvements": 1000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 4588
+      },
+      "2024": {
+        "year": 2024,
+        "total": 4701
+      }
+    },
+    "history": {
+      "2006-06-21": {
+        "event": "Sale",
+        "date": "2006-06-21T00:00:00.000Z",
+        "price": 26450
+      },
+      "2026-06-05": {
+        "event": "Sale",
+        "date": "2026-06-05T00:00:00.000Z",
+        "price": 435000
+      }
+    }
+  },
+  {
+    "id": "6814-46th-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "6814 46th Ave S, Seattle, WA 98118",
+    "addressLine1": "6814 46th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.541039,
+    "longitude": -122.275012,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 900,
+    "lotSize": 5043,
+    "yearBuilt": 1975,
+    "assessorID": "1105000446",
+    "legalDescription": "BRIGHTON BEACH ACRE TRS ADD LOT C SHORT PLAT # 137 REC UNDER AUD FILE # 7412260348 SD PLAT DAF POR TR 51 LY BTW N LN S WILLOW ST & THE ALLEY LY N THOF LESS ST PLAT BLOCK: PLAT LOT: 51",
+    "subdivision": "BRIGHTON BEACH ACRE TRACTS",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-10T00:00:00.000Z",
+    "lastSalePrice": 430000,
+    "features": {
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Attached",
+      "heating": true,
+      "heatingType": "Baseboard",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 549000,
+        "land": 315000,
+        "improvements": 234000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 539000,
+        "land": 337000,
+        "improvements": 202000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 5146
+      },
+      "2024": {
+        "year": 2024,
+        "total": 5294
+      }
+    },
+    "history": {
+      "2026-06-10": {
+        "event": "Sale",
+        "date": "2026-06-10T00:00:00.000Z",
+        "price": 430000
+      }
+    }
+  },
+  {
+    "id": "4418-S-Othello-St,-Seattle,-WA-98118",
+    "formattedAddress": "4418 S Othello St, Seattle, WA 98118",
+    "addressLine1": "4418 S Othello St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.537216,
+    "longitude": -122.277052,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 830,
+    "lotSize": 5040,
+    "yearBuilt": 1950,
+    "assessorID": "1005000150",
+    "legalDescription": "BOWENS REPLAT OF RAINIER GARDENS E 1/2 10 LESS W 49 FT LESS STS PLAT BLOCK: 2 PLAT LOT: 10",
+    "subdivision": "BOWENS REP OF RAINIER GARDENS",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-10T00:00:00.000Z",
+    "lastSalePrice": 1130000,
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "heating": true,
+      "heatingType": "Baseboard",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 568000,
+        "land": 426000,
+        "improvements": 142000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 457000,
+        "land": 457000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 10294
+      },
+      "2024": {
+        "year": 2024,
+        "total": 20439
+      }
+    },
+    "history": {
+      "2022-08-01": {
+        "event": "Sale",
+        "date": "2022-08-01T00:00:00.000Z",
+        "price": 610000
+      },
+      "2026-06-10": {
+        "event": "Sale",
+        "date": "2026-06-10T00:00:00.000Z",
+        "price": 1130000
+      }
+    }
+  },
+  {
+    "id": "4619-S-Lucile-St,-Seattle,-WA-98118",
+    "formattedAddress": "4619 S Lucile St, Seattle, WA 98118",
+    "addressLine1": "4619 S Lucile St",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.552449,
+    "longitude": -122.274446,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "squareFootage": 1340,
+    "lotSize": 6180,
+    "yearBuilt": 1902,
+    "assessorID": "3331500500",
+    "legalDescription": "HILLMAN CITY ADD DIV # 3 PLAT BLOCK: 3 PLAT LOT: 15-16",
+    "subdivision": "HILLMAN CITY DIV 03",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-12T00:00:00.000Z",
+    "lastSalePrice": 599950,
+    "features": {
+      "floorCount": 2,
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 695000,
+        "land": 292000,
+        "improvements": 403000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 830000,
+        "land": 345000,
+        "improvements": 485000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 754000,
+        "land": 386000,
+        "improvements": 368000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 7427
+      },
+      "2024": {
+        "year": 2024,
+        "total": 7657
+      }
+    },
+    "history": {
+      "2026-06-12": {
+        "event": "Sale",
+        "date": "2026-06-12T00:00:00.000Z",
+        "price": 599950
+      }
+    }
+  },
+  {
+    "id": "4811-S-Graham-St,-Apt-B,-Seattle,-WA-98118",
+    "formattedAddress": "4811 S Graham St, Apt B, Seattle, WA 98118",
+    "addressLine1": "4811 S Graham St",
+    "addressLine2": "Apt B",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.544833,
+    "longitude": -122.272242,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 1670,
+    "lotSize": 5002,
+    "yearBuilt": 2002,
+    "assessorID": "1105000081",
+    "legalDescription": "BRIGHTON BEACH ACRE TRACTS ADD PARCEL \"B\" SEATTLE SHORT SUBDIVISION NO 2101926 REC NO 20011016900004 SD SHORT SUBDIVISION DAF - POR OF TRACT 5 IN PLAT OF BRIGHTON BEACH ACRE TRACTS ADDITION TO THE CITY OF SEATTLE BEG AT SE COR OF SD TR 5 TH S 89-20-5",
+    "subdivision": "BRIGHTON BEACH ACRE TRACTS",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-17T00:00:00.000Z",
+    "lastSalePrice": 888000,
+    "features": {
+      "fireplace": true,
+      "floorCount": 2,
+      "garage": true,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 937000,
+        "land": 333000,
+        "improvements": 604000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 8296
+      }
+    },
+    "history": {
+      "2026-06-17": {
+        "event": "Sale",
+        "date": "2026-06-17T00:00:00.000Z",
+        "price": 888000
+      }
+    }
+  },
+  {
+    "id": "7601-39th-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "7601 39th Ave S, Seattle, WA 98118",
+    "addressLine1": "7601 39th Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.53463,
+    "longitude": -122.283881,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3.5,
+    "squareFootage": 2230,
+    "lotSize": 3764,
+    "yearBuilt": 2005,
+    "assessorID": "3395070910",
+    "legalDescription": "HOLLY PARK PH 03 AKA \"PARCEL A\" OF SEATTLE LOT BOUNDARY ADJUSTMENT NO 2402225-LBA REC NO 20040712900014 PLAT BLOCK: 12 PLAT LOT: 1-2",
+    "subdivision": "HOLLY PARK PH 03",
+    "zoning": "LR2",
+    "lastSaleDate": "2026-06-18T00:00:00.000Z",
+    "lastSalePrice": 1007000,
+    "hoa": {
+      "fee": 79
+    },
+    "features": {
+      "fireplace": true,
+      "floorCount": 2,
+      "garage": true,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 712000,
+        "land": 351000,
+        "improvements": 361000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 823000,
+        "land": 388000,
+        "improvements": 435000
+      },
+      "2023": {
+        "year": 2023,
+        "value": 823000,
+        "land": 388000,
+        "improvements": 435000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 809000,
+        "land": 415000,
+        "improvements": 394000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 7194
+      },
+      "2024": {
+        "year": 2024,
+        "total": 7387
+      }
+    },
+    "history": {
+      "2016-11-10": {
+        "event": "Sale",
+        "date": "2016-11-10T00:00:00.000Z",
+        "price": 627000
+      },
+      "2026-06-18": {
+        "event": "Sale",
+        "date": "2026-06-18T00:00:00.000Z",
+        "price": 1007000
+      }
+    }
+  },
+  {
+    "id": "5015-37th-Ave-S-Apt-B,-Seattle,-WA-98118",
+    "formattedAddress": "5015 37th Ave S Apt B, Seattle, WA 98118",
+    "addressLine1": "5015 37th Ave S Apt B",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.556532,
+    "longitude": -122.286579,
+    "lastSaleDate": "2026-06-18T00:00:00.000Z",
+    "lastSalePrice": 650000,
+    "history": {
+      "2026-06-18": {
+        "event": "Sale",
+        "date": "2026-06-18T00:00:00.000Z",
+        "price": 650000
+      }
+    }
+  },
+  {
+    "id": "7305-32nd-Ave-S,-Seattle,-WA-98118",
+    "formattedAddress": "7305 32nd Ave S, Seattle, WA 98118",
+    "addressLine1": "7305 32nd Ave S",
+    "addressLine2": null,
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.536826,
+    "longitude": -122.291706,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "squareFootage": 890,
+    "lotSize": 4000,
+    "yearBuilt": 1952,
+    "assessorID": "7857003115",
+    "legalDescription": "SOMERVILLE ADD N 40 FT OF S 250 FT OF E 100 FT PLAT BLOCK: PLAT LOT: 45",
+    "subdivision": "SOMERVILLE ADD",
+    "zoning": "SF 5000",
+    "lastSaleDate": "2026-06-26T00:00:00.000Z",
+    "lastSalePrice": 850000,
+    "features": {
+      "fireplace": true,
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Basement",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 442000,
+        "land": 279000,
+        "improvements": 163000
+      },
+      "2022": {
+        "year": 2022,
+        "value": 511000,
+        "land": 308000,
+        "improvements": 203000
+      },
+      "2024": {
+        "year": 2024,
+        "value": 502000,
+        "land": 329000,
+        "improvements": 173000
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 4661
+      },
+      "2024": {
+        "year": 2024,
+        "total": 5207
+      }
+    },
+    "history": {
+      "2015-10-30": {
+        "event": "Sale",
+        "date": "2015-10-30T00:00:00.000Z",
+        "price": 286650
+      },
+      "2026-06-26": {
+        "event": "Sale",
+        "date": "2026-06-26T00:00:00.000Z",
+        "price": 850000
+      }
+    }
+  },
+  {
+    "id": "7322-Rainier-Ave-S,-Unit-502,-Seattle,-WA-98118",
+    "formattedAddress": "7322 Rainier Ave S, Unit 502, Seattle, WA 98118",
+    "addressLine1": "7322 Rainier Ave S",
+    "addressLine2": "Unit 502",
+    "city": "Seattle",
+    "state": "WA",
+    "stateFips": "53",
+    "zipCode": "98118",
+    "county": "King",
+    "countyFips": "033",
+    "latitude": 47.53626,
+    "longitude": -122.270042,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2.5,
+    "squareFootage": 1013,
+    "lotSize": 52947,
+    "yearBuilt": 2006,
+    "assessorID": "7701420310",
+    "legalDescription": "SEWARD PK TOWNHOMES CONDOMINIUM PCT UND INT 2.25 PLAT BLOCK: PLAT LOT:",
+    "subdivision": "SEWARD PARK TWNHMS CONDO",
+    "zoning": "LR3",
+    "lastSaleDate": "2026-06-30T00:00:00.000Z",
+    "lastSalePrice": 350000,
+    "hoa": {
+      "fee": 536
+    },
+    "features": {
+      "architectureType": "Condo / Apartment",
+      "fireplace": true,
+      "floorCount": 2,
+      "garage": true,
+      "garageSpaces": 1,
+      "garageType": "Basement",
+      "unitCount": 41,
+      "viewType": "Average"
+    },
+    "taxAssessments": {
+      "2024": {
+        "year": 2024,
+        "value": 388000,
+        "land": 95300,
+        "improvements": 292700
+      }
+    },
+    "propertyTaxes": {
+      "2024": {
+        "year": 2024,
+        "total": 3966
+      }
+    },
+    "history": {
+      "2015-03-06": {
+        "event": "Sale",
+        "date": "2015-03-06T00:00:00.000Z",
+        "price": 184900
+      },
+      "2026-06-30": {
+        "event": "Sale",
+        "date": "2026-06-30T00:00:00.000Z",
+        "price": 350000
+      }
+    }
+  }
+]
