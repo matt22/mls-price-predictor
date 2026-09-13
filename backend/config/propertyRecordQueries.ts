@@ -11,7 +11,7 @@ export interface PropertyRecordQuery {
 export const propertyRecordQueries: Record<string, PropertyRecordQuery> = {
   'seattle-98118-recent-sales': {
     zipCode: '98118',
-    saleDateRange: 60,
+    saleDateRange: 120,
     limit: 50,
   },
 };
