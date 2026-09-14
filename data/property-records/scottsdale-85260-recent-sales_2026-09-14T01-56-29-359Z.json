@@ -1,0 +1,96 @@
+[
+  {
+    "id": "8245-E-Bell-Rd,-Unit-138,-Scottsdale,-AZ-85260",
+    "formattedAddress": "8245 E Bell Rd, Unit 138, Scottsdale, AZ 85260",
+    "addressLine1": "8245 E Bell Rd",
+    "addressLine2": "Unit 138",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "stateFips": "04",
+    "zipCode": "85260",
+    "county": "Maricopa",
+    "countyFips": "013",
+    "latitude": 33.639468,
+    "longitude": -111.904105,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1356,
+    "lotSize": 2215,
+    "yearBuilt": 1998,
+    "assessorID": "215-49-040",
+    "legalDescription": "MONTANA DEL SOL CONDOMINIUM MCR 455-48 UNIT 138 TOG WI AN UNDIV 1/102 INT IN THE COMMON ELEMENTS",
+    "subdivision": "MONTANA DEL SOL CONDOMINIUM",
+    "zoning": "M-H",
+    "lastSaleDate": "2026-09-04T00:00:00.000Z",
+    "lastSalePrice": 515000,
+    "hoa": {
+      "fee": 400
+    },
+    "features": {
+      "architectureType": "Condo / Apartment",
+      "cooling": true,
+      "coolingType": "Refrigeration",
+      "exteriorType": "Wood",
+      "floorCount": 1,
+      "garage": true,
+      "garageSpaces": 1,
+      "garageType": "Garage",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "roomCount": 5,
+      "unitCount": 1,
+      "roofType": "Hip / Wood Shake"
+    },
+    "taxAssessments": {
+      "2023": {
+        "year": 2023,
+        "value": 33050,
+        "land": 6610,
+        "improvements": 26440
+      },
+      "2024": {
+        "year": 2024,
+        "value": 43080
+      },
+      "2025": {
+        "year": 2025,
+        "value": 40430
+      },
+      "2026": {
+        "year": 2026,
+        "value": 46330
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 2017
+      },
+      "2023": {
+        "year": 2023,
+        "total": 2472
+      },
+      "2024": {
+        "year": 2024,
+        "total": 2508
+      },
+      "2025": {
+        "year": 2025,
+        "total": 2563
+      }
+    },
+    "history": {
+      "2023-04-06": {
+        "event": "Sale",
+        "date": "2023-04-06T00:00:00.000Z",
+        "price": 470000
+      },
+      "2026-09-04": {
+        "event": "Sale",
+        "date": "2026-09-04T00:00:00.000Z",
+        "price": 515000
+      }
+    }
+  }
+]
