@@ -1,0 +1,371 @@
+[
+  {
+    "id": "154-Woodbury-Pines-Cir,-Orlando,-FL-32828",
+    "formattedAddress": "154 Woodbury Pines Cir, Orlando, FL 32828",
+    "addressLine1": "154 Woodbury Pines Cir",
+    "addressLine2": null,
+    "city": "Orlando",
+    "state": "FL",
+    "stateFips": "12",
+    "zipCode": "32828",
+    "county": "Orange",
+    "countyFips": "095",
+    "latitude": 28.53863,
+    "longitude": -81.190599,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1542,
+    "lotSize": 8276,
+    "yearBuilt": 1996,
+    "assessorID": "352231946600510",
+    "legalDescription": "WOODBURY PINES 33/94 LOT 51",
+    "subdivision": "WOODBURY PINES",
+    "zoning": "R-2",
+    "lastSaleDate": "2026-08-17T00:00:00.000Z",
+    "lastSalePrice": 425000,
+    "hoa": {
+      "fee": 30
+    },
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Concrete Block / Stucco",
+      "floorCount": 1,
+      "garage": true,
+      "garageType": "Garage",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "roofType": "Composition Shingle",
+      "unitCount": 1,
+      "pool": true
+    },
+    "taxAssessments": {
+      "2022": {
+        "year": 2022,
+        "value": 152247
+      },
+      "2023": {
+        "year": 2023,
+        "value": 156814
+      },
+      "2024": {
+        "year": 2024,
+        "value": 161518
+      },
+      "2025": {
+        "year": 2025,
+        "value": 166202
+      }
+    },
+    "propertyTaxes": {
+      "2022": {
+        "year": 2022,
+        "total": 2163
+      },
+      "2023": {
+        "year": 2023,
+        "total": 2273
+      },
+      "2024": {
+        "year": 2024,
+        "total": 2447
+      }
+    },
+    "history": {
+      "2001-08-10": {
+        "event": "Sale",
+        "date": "2001-08-10T00:00:00.000Z",
+        "price": 149900
+      },
+      "2026-01-22": {
+        "event": "Sale",
+        "date": "2026-01-22T00:00:00.000Z",
+        "price": 279100
+      },
+      "2026-08-17": {
+        "event": "Sale",
+        "date": "2026-08-17T00:00:00.000Z",
+        "price": 425000
+      }
+    }
+  },
+  {
+    "id": "1323-Shallcross-Ave,-Orlando,-FL-32828",
+    "formattedAddress": "1323 Shallcross Ave, Orlando, FL 32828",
+    "addressLine1": "1323 Shallcross Ave",
+    "addressLine2": null,
+    "city": "Orlando",
+    "state": "FL",
+    "stateFips": "12",
+    "zipCode": "32828",
+    "county": "Orange",
+    "countyFips": "095",
+    "latitude": 28.538843,
+    "longitude": -81.152745,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 2074,
+    "lotSize": 3920,
+    "yearBuilt": 2006,
+    "assessorID": "302232789501850",
+    "legalDescription": "SPRING ISLE UNIT 1 61/131 LOT 185",
+    "subdivision": "SPRING ISLE",
+    "zoning": "P-D",
+    "lastSaleDate": "2026-08-18T00:00:00.000Z",
+    "lastSalePrice": 390000,
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Concrete Block / Stucco",
+      "floorCount": 2,
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Garage",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "roofType": "Composition Shingle",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2020": {
+        "year": 2020,
+        "value": 114200
+      },
+      "2021": {
+        "year": 2021,
+        "value": 230543,
+        "land": 40000,
+        "improvements": 190543
+      },
+      "2022": {
+        "year": 2022,
+        "value": 293248,
+        "land": 55000,
+        "improvements": 238248
+      },
+      "2023": {
+        "year": 2023,
+        "value": 338654,
+        "land": 55000,
+        "improvements": 283654
+      },
+      "2024": {
+        "year": 2024,
+        "value": 361729,
+        "land": 55000,
+        "improvements": 306729
+      },
+      "2025": {
+        "year": 2025,
+        "value": 361760,
+        "land": 55000,
+        "improvements": 306760
+      }
+    },
+    "propertyTaxes": {
+      "2020": {
+        "year": 2020,
+        "total": 1195
+      },
+      "2022": {
+        "year": 2022,
+        "total": 4191
+      },
+      "2023": {
+        "year": 2023,
+        "total": 4695
+      },
+      "2024": {
+        "year": 2024,
+        "total": 5295
+      }
+    },
+    "history": {
+      "2024-06-11": {
+        "event": "Sale",
+        "date": "2024-06-11T00:00:00.000Z",
+        "price": 410000
+      },
+      "2026-08-18": {
+        "event": "Sale",
+        "date": "2026-08-18T00:00:00.000Z",
+        "price": 390000
+      }
+    }
+  },
+  {
+    "id": "1109-Royal-Saint-George-Dr,-Orlando,-FL-32828",
+    "formattedAddress": "1109 Royal Saint George Dr, Orlando, FL 32828",
+    "addressLine1": "1109 Royal Saint George Dr",
+    "addressLine2": null,
+    "city": "Orlando",
+    "state": "FL",
+    "stateFips": "12",
+    "zipCode": "32828",
+    "county": "Orange",
+    "countyFips": "095",
+    "latitude": 28.529761,
+    "longitude": -81.171769,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 2371,
+    "lotSize": 6970,
+    "yearBuilt": 2000,
+    "assessorID": "362231231800890",
+    "legalDescription": "KENSINGTON AT EASTWOOD 40/16 LOT 89",
+    "subdivision": "KENSINGTON AT EASTWOOD",
+    "zoning": "P-D",
+    "lastSaleDate": "2026-08-26T00:00:00.000Z",
+    "lastSalePrice": 480000,
+    "hoa": {
+      "fee": 182
+    },
+    "features": {
+      "cooling": true,
+      "coolingType": "Central",
+      "exteriorType": "Concrete Block / Stucco",
+      "floorCount": 2,
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Garage",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "roofType": "Composition Shingle",
+      "unitCount": 1
+    },
+    "taxAssessments": {
+      "2016": {
+        "year": 2016,
+        "value": 159541,
+        "land": null,
+        "improvements": null
+      },
+      "2017": {
+        "year": 2017,
+        "value": 162891,
+        "land": null,
+        "improvements": null
+      },
+      "2018": {
+        "year": 2018,
+        "value": 166312,
+        "land": null,
+        "improvements": null
+      },
+      "2019": {
+        "year": 2019,
+        "value": 169472,
+        "land": null,
+        "improvements": null
+      },
+      "2020": {
+        "year": 2020,
+        "value": 255254,
+        "land": 45000,
+        "improvements": 210254
+      },
+      "2021": {
+        "year": 2021,
+        "value": 258828,
+        "land": null,
+        "improvements": null
+      },
+      "2022": {
+        "year": 2022,
+        "value": 266593,
+        "land": null,
+        "improvements": null
+      },
+      "2023": {
+        "year": 2023,
+        "value": 274591,
+        "land": null,
+        "improvements": null
+      },
+      "2024": {
+        "year": 2024,
+        "value": 291031,
+        "land": null,
+        "improvements": null
+      },
+      "2025": {
+        "year": 2025,
+        "value": 291031,
+        "land": null,
+        "improvements": null
+      }
+    },
+    "propertyTaxes": {
+      "2016": {
+        "year": 2016,
+        "total": 2252
+      },
+      "2017": {
+        "year": 2017,
+        "total": 2280
+      },
+      "2018": {
+        "year": 2018,
+        "total": 2321
+      },
+      "2019": {
+        "year": 2019,
+        "total": 2344
+      },
+      "2020": {
+        "year": 2020,
+        "total": 3541
+      },
+      "2021": {
+        "year": 2021,
+        "total": 3720
+      },
+      "2022": {
+        "year": 2022,
+        "total": 3782
+      },
+      "2023": {
+        "year": 2023,
+        "total": 3922
+      },
+      "2024": {
+        "year": 2024,
+        "total": 4129
+      },
+      "2025": {
+        "year": 2025,
+        "total": 4351
+      }
+    },
+    "history": {
+      "1999-10-08": {
+        "event": "Sale",
+        "date": "1999-10-08T00:00:00.000Z",
+        "price": 27700
+      },
+      "2000-06-28": {
+        "event": "Sale",
+        "date": "2000-06-28T00:00:00.000Z",
+        "price": 172700
+      },
+      "2001-08-01": {
+        "event": "Sale",
+        "date": "2001-08-01T00:00:00.000Z",
+        "price": 179000
+      },
+      "2019-06-28": {
+        "event": "Sale",
+        "date": "2019-06-28T00:00:00.000Z",
+        "price": 301000
+      },
+      "2026-08-26": {
+        "event": "Sale",
+        "date": "2026-08-26T00:00:00.000Z",
+        "price": 480000
+      }
+    }
+  }
+]
