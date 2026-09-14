@@ -1,0 +1,269 @@
+[
+  {
+    "id": "16602-N-25th-St,-Apt-129,-Phoenix,-AZ-85032",
+    "formattedAddress": "16602 N 25th St, Apt 129, Phoenix, AZ 85032",
+    "addressLine1": "16602 N 25th St",
+    "addressLine2": "Apt 129",
+    "city": "Phoenix",
+    "state": "AZ",
+    "stateFips": "04",
+    "zipCode": "85032",
+    "county": "Maricopa",
+    "countyFips": "013",
+    "latitude": 33.637346,
+    "longitude": -112.029076,
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1136,
+    "lotSize": 1165,
+    "yearBuilt": 1986,
+    "assessorID": "214-26-153",
+    "legalDescription": "AUTUMN PARK CONDOMINIUM MCR 697-14 UNIT 129 (PLEASE NOTE: FOR LEGAL DESCRIPTION REFERENCES REGARDING THE PERCENTAGE OF OWNERS",
+    "subdivision": "AUTUMN PARK CONDOMINIUM",
+    "zoning": "M-H",
+    "lastSaleDate": "2026-09-01T00:00:00.000Z",
+    "lastSalePrice": 165000,
+    "hoa": {
+      "fee": 345
+    },
+    "features": {
+      "architectureType": "Condo / Apartment",
+      "cooling": true,
+      "coolingType": "Refrigeration",
+      "exteriorType": "Stucco",
+      "floorCount": 1,
+      "garage": true,
+      "garageSpaces": 2,
+      "garageType": "Carport",
+      "heating": true,
+      "heatingType": "Forced Air",
+      "roofType": "Built-up",
+      "roomCount": 5,
+      "pool": true,
+      "poolType": "Community Pool"
+    },
+    "taxAssessments": {
+      "2021": {
+        "year": 2021,
+        "value": 9660,
+        "land": 1930,
+        "improvements": 7730
+      },
+      "2023": {
+        "year": 2023,
+        "value": 14270,
+        "land": 2850,
+        "improvements": 11420
+      },
+      "2024": {
+        "year": 2024,
+        "value": 18880
+      },
+      "2025": {
+        "year": 2025,
+        "value": 17480
+      },
+      "2026": {
+        "year": 2026,
+        "value": 18410
+      }
+    },
+    "propertyTaxes": {
+      "2020": {
+        "year": 2020,
+        "total": 476
+      },
+      "2022": {
+        "year": 2022,
+        "total": 490
+      },
+      "2023": {
+        "year": 2023,
+        "total": 495
+      },
+      "2024": {
+        "year": 2024,
+        "total": 506
+      },
+      "2025": {
+        "year": 2025,
+        "total": 519
+      }
+    },
+    "history": {
+      "2021-08-25": {
+        "event": "Sale",
+        "date": "2021-08-25T00:00:00.000Z",
+        "price": 196500
+      },
+      "2026-09-01": {
+        "event": "Sale",
+        "date": "2026-09-01T00:00:00.000Z",
+        "price": 165000
+      }
+    }
+  },
+  {
+    "id": "18026-N-Cave-Creek-Rd,-Lot-35,-Phoenix,-AZ-85032",
+    "formattedAddress": "18026 N Cave Creek Rd, Lot 35, Phoenix, AZ 85032",
+    "addressLine1": "18026 N Cave Creek Rd",
+    "addressLine2": "Lot 35",
+    "city": "Phoenix",
+    "state": "AZ",
+    "stateFips": "04",
+    "zipCode": "85032",
+    "county": "Maricopa",
+    "countyFips": "013",
+    "latitude": 33.650485,
+    "longitude": -112.033117,
+    "propertyType": "Manufactured",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 960,
+    "yearBuilt": 1978,
+    "lastSaleDate": "2026-09-02T00:00:00.000Z",
+    "lastSalePrice": 25500000,
+    "features": {
+      "floorCount": 1,
+      "garage": true,
+      "garageSpaces": 1
+    },
+    "taxAssessments": {
+      "2015": {
+        "year": 2015,
+        "value": 263850,
+        "land": 172520,
+        "improvements": 91330
+      },
+      "2016": {
+        "year": 2016,
+        "value": 259690,
+        "land": 168070,
+        "improvements": 91620
+      },
+      "2017": {
+        "year": 2017,
+        "value": 324720,
+        "land": 236050,
+        "improvements": 88670
+      },
+      "2018": {
+        "year": 2018,
+        "value": 382840,
+        "land": 314850,
+        "improvements": 67990
+      },
+      "2019": {
+        "year": 2019,
+        "value": 372380,
+        "land": 303210,
+        "improvements": 69170
+      },
+      "2020": {
+        "year": 2020,
+        "value": 398580,
+        "land": 328070,
+        "improvements": 70510
+      },
+      "2022": {
+        "year": 2022,
+        "value": 477670,
+        "land": 406460,
+        "improvements": 71210
+      },
+      "2023": {
+        "year": 2023,
+        "value": 580814,
+        "land": null,
+        "improvements": null
+      },
+      "2024": {
+        "year": 2024,
+        "value": 605399,
+        "land": null,
+        "improvements": null
+      },
+      "2025": {
+        "year": 2025,
+        "value": 605400,
+        "land": null,
+        "improvements": null
+      }
+    },
+    "propertyTaxes": {
+      "2015": {
+        "year": 2015,
+        "total": 34067
+      },
+      "2016": {
+        "year": 2016,
+        "total": 34483
+      },
+      "2017": {
+        "year": 2017,
+        "total": 35068
+      },
+      "2018": {
+        "year": 2018,
+        "total": 36584
+      },
+      "2019": {
+        "year": 2019,
+        "total": 37826
+      },
+      "2020": {
+        "year": 2020,
+        "total": 37776
+      },
+      "2022": {
+        "year": 2022,
+        "total": 38867
+      },
+      "2023": {
+        "year": 2023,
+        "total": 39261
+      },
+      "2024": {
+        "year": 2024,
+        "total": 40101
+      },
+      "2025": {
+        "year": 2025,
+        "total": 41172
+      }
+    },
+    "history": {
+      "1991-10-04": {
+        "event": "Sale",
+        "date": "1991-10-04T00:00:00.000Z",
+        "price": 2250000
+      },
+      "1993-05-03": {
+        "event": "Sale",
+        "date": "1993-05-03T00:00:00.000Z",
+        "price": 2925000
+      },
+      "2024-09-19": {
+        "event": "Sale",
+        "date": "2024-09-19T00:00:00.000Z",
+        "price": 55000
+      },
+      "2026-05-19": {
+        "event": "Sale",
+        "date": "2026-05-19T00:00:00.000Z",
+        "price": 35000
+      },
+      "2026-07-27": {
+        "event": "Sale",
+        "date": "2026-07-27T00:00:00.000Z",
+        "price": 35000
+      },
+      "2026-09-02": {
+        "event": "Sale",
+        "date": "2026-09-02T00:00:00.000Z",
+        "price": 25500000
+      }
+    }
+  }
+]
