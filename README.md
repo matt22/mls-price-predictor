@@ -152,6 +152,9 @@ mls-price-predictor/
 │   ├── Dockerfile
 │   └── .env.example
 │
+├── data/
+│   ├── property-records/        # One-off property-records probes (e.g. Palm Springs, Orlando, Tampa)
+│   └── rentcast/                # Saved RentCast API responses (recent sales, listings)
 ├── frontend/
 │   ├── src/
 │   │   ├── main.tsx                 # React entry point
