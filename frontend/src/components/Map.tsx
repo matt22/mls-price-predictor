@@ -1,19 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { getListings } from '../services/api';
+import { getListings, Listing } from '../services/api';
 import '../styles/Map.css';
-
-interface Listing {
-  id: string;
-  address: string;
-  city: string;
-  listPrice: number;
-  beds: number;
-  baths: number;
-  latitude: number;
-  longitude: number;
-}
 
 export function Map() {
   const mapContainer = useRef<HTMLDivElement>(null);

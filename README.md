@@ -209,6 +209,9 @@ The spec is generated from the zod schemas in `backend/src/models/`, which also
 validate request input. After changing a schema or route, run `npm run openapi`
 in `backend/` to refresh the committed `backend/openapi.json`; `npm test` fails
 if it is stale or if the schemas drift from the migration's columns.
+Then run `npm run api:types` in `frontend/` to regenerate
+`frontend/src/services/api-types.ts`, so the frontend type-checks against the
+new shapes.
 
 ## 📊 Database Schema
 

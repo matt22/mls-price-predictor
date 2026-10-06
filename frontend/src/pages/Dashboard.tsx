@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Map } from '../components/Map';
 import { SearchFilters, SearchParams } from '../components/SearchFilters';
-import { getListings, getPrediction } from '../services/api';
+import { getListings, getPrediction, Listing, Prediction } from '../services/api';
 import '../styles/Dashboard.css';
 
 export default function Dashboard() {
-  const [listings, setListings] = useState<any[]>([]);
-  const [selectedListing, setSelectedListing] = useState<any | null>(null);
-  const [prediction, setPrediction] = useState<any | null>(null);
+  const [listings, setListings] = useState<Listing[]>([]);
+  const [selectedListing, setSelectedListing] = useState<Listing | null>(null);
+  const [prediction, setPrediction] = useState<Prediction | null>(null);
   const [interestRate, setInterestRate] = useState(6.8);
   const [loading, setLoading] = useState(false);
 
@@ -23,7 +23,7 @@ export default function Dashboard() {
     }
   };
 
-  const handleSelectListing = async (listing: any) => {
+  const handleSelectListing = async (listing: Listing) => {
     setSelectedListing(listing);
     setLoading(true);
     try {

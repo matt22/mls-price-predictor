@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { getListings, getPrediction } from '../services/api';
+import { getListings, getPrediction, Listing, Prediction } from '../services/api';
 import { SearchFilters, SearchParams } from '../components/SearchFilters';
 import '../styles/Listings.css';
 
 export default function Listings() {
-  const [listings, setListings] = useState<any[]>([]);
-  const [predictions, setPredictions] = useState<Map<string, any>>(new Map());
+  const [listings, setListings] = useState<Listing[]>([]);
+  const [predictions, setPredictions] = useState<Map<string, Prediction>>(new Map());
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
 
