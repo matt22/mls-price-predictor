@@ -6,6 +6,10 @@ export interface AppError extends Error {
   details?: unknown;
 }
 
+export function httpError(status: number, message: string): AppError {
+  return Object.assign(new Error(message), { status });
+}
+
 export const errorHandler = (
   err: AppError,
   req: Request,

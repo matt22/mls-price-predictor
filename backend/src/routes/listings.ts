@@ -2,6 +2,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { db } from '../utils/database.js';
 import { ListingFilters } from '../models/Listing.js';
 import { logger } from '../utils/logger.js';
+import { httpError } from '../utils/errorHandler.js';
 
 const router = Router();
 
@@ -24,44 +25,44 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
       limit = 20,
     } = req.query;
 
-    let query = 'SELECT * FROM listings WHERE 1=1';
+    let where = 'WHERE 1=1';
     const params: any[] = [];
     let paramIndex = 1;
 
     if (city) {
-      query += ` AND city ILIKE $${paramIndex++}`;
+      where += ` AND city ILIKE $${paramIndex++}`;
       params.push(`%${city}%`);
     }
     if (state) {
-      query += ` AND state = $${paramIndex++}`;
+      where += ` AND state = $${paramIndex++}`;
       params.push(state);
     }
     if (zipCode) {
-      query += ` AND zip_code = $${paramIndex++}`;
+      where += ` AND zip_code = $${paramIndex++}`;
       params.push(zipCode);
     }
     if (minPrice) {
-      query += ` AND list_price >= $${paramIndex++}`;
+      where += ` AND list_price >= $${paramIndex++}`;
       params.push(Number(minPrice));
     }
     if (maxPrice) {
-      query += ` AND list_price <= $${paramIndex++}`;
+      where += ` AND list_price <= $${paramIndex++}`;
       params.push(Number(maxPrice));
     }
     if (beds) {
-      query += ` AND beds = $${paramIndex++}`;
+      where += ` AND beds = $${paramIndex++}`;
       params.push(Number(beds));
     }
     if (baths) {
-      query += ` AND baths = $${paramIndex++}`;
+      where += ` AND baths = $${paramIndex++}`;
       params.push(Number(baths));
     }
     if (propertyType) {
-      query += ` AND property_type = $${paramIndex++}`;
+      where += ` AND property_type = $${paramIndex++}`;
       params.push(propertyType);
     }
     if (lat && lng && radiusMiles) {
-      query += `
+      where += `
         AND ST_DWithin(
           ST_MakePoint(longitude, latitude)::geography,
           ST_MakePoint($${paramIndex}, $${paramIndex + 1})::geography,
@@ -77,17 +78,18 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     const limitNum = Math.min(100, Number(limit) || 20);
     const offset = (pageNum - 1) * limitNum;
 
-    query += ` ORDER BY created_at DESC LIMIT $${paramIndex++} OFFSET $${paramIndex++}`;
-    params.push(limitNum, offset);
-
-    const listings = await db.query(query, params);
+    const [{ total }] = await db.query(`SELECT COUNT(*) AS total FROM listings ${where}`, params);
+    const listings = await db.query(
+      `SELECT * FROM listings ${where} ORDER BY created_at DESC LIMIT $${paramIndex++} OFFSET $${paramIndex++}`,
+      [...params, limitNum, offset],
+    );
 
     res.json({
       data: listings,
       pagination: {
         page: pageNum,
         limit: limitNum,
-        total: listings.length,
+        total,
       },
     });
   } catch (error) {
@@ -102,7 +104,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
     const listing = await db.oneOrNone('SELECT * FROM listings WHERE id = $1', [id]);
 
     if (!listing) {
-      return res.status(404).json({ error: 'Listing not found' });
+      return next(httpError(404, 'Listing not found'));
     }
 
     res.json(listing);

@@ -2,6 +2,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { db } from '../utils/database.js';
 import { calculatePricePrediction } from '../services/predictionEngine.js';
 import { logger } from '../utils/logger.js';
+import { httpError } from '../utils/errorHandler.js';
 
 const router = Router();
 
@@ -24,7 +25,7 @@ router.get('/listing/:id', async (req: Request, res: Response, next: NextFunctio
     // Get listing details
     const listing = await db.oneOrNone('SELECT * FROM listings WHERE id = $1', [id]);
     if (!listing) {
-      return res.status(404).json({ error: 'Listing not found' });
+      return next(httpError(404, 'Listing not found'));
     }
 
     // Calculate prediction
@@ -63,7 +64,7 @@ router.post('/batch', async (req: Request, res: Response, next: NextFunction) =>
     const { listingIds, interestRate = 6.8 } = req.body;
 
     if (!Array.isArray(listingIds) || listingIds.length === 0) {
-      return res.status(400).json({ error: 'Invalid listingIds' });
+      return next(httpError(400, 'Invalid listingIds'));
     }
 
     const predictions = [];
