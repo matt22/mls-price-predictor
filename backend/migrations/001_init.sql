@@ -22,7 +22,7 @@ CREATE TABLE listings (
 );
 
 -- Create spatial index
-CREATE INDEX idx_listings_geom ON listings USING GIST (ST_MakePoint(longitude, latitude)::geography);
+CREATE INDEX idx_listings_geom ON listings USING GIST ((ST_MakePoint(longitude, latitude)::geography));
 CREATE INDEX idx_listings_city_state ON listings(city, state);
 CREATE INDEX idx_listings_price ON listings(list_price);
 CREATE INDEX idx_listings_beds_baths ON listings(beds, baths);
