@@ -67,12 +67,12 @@ export default function Listings() {
                 <div className="listing-prices">
                   <div className="price-row">
                     <span>List Price:</span>
-                    <span className="price">${listing.list_price.toLocaleString()}</span>
+                    <span className="price">${listing.listPrice.toLocaleString()}</span>
                   </div>
                   {prediction && (
                     <div className="price-row prediction">
                       <span>Predicted:</span>
-                      <span className="price">${prediction.predicted_price.toLocaleString()}</span>
+                      <span className="price">${prediction.predictedPrice.toLocaleString()}</span>
                     </div>
                   )}
                 </div>

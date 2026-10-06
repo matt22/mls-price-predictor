@@ -8,7 +8,7 @@ interface Listing {
   id: string;
   address: string;
   city: string;
-  list_price: number;
+  listPrice: number;
   beds: number;
   baths: number;
   latitude: number;
@@ -43,13 +43,13 @@ export function Map() {
           if (map.current) {
             const el = document.createElement('div');
             el.className = 'marker';
-            el.innerHTML = `<div class="marker-price">$${(listing.list_price / 1000).toFixed(0)}k</div>`;
+            el.innerHTML = `<div class="marker-price">$${(listing.listPrice / 1000).toFixed(0)}k</div>`;
 
             const popup = new maplibregl.Popup({ offset: 25 }).setHTML(
               `<div class="popup-content">
                 <p class="popup-address">${listing.address}</p>
                 <p class="popup-details">${listing.beds}bd ${listing.baths}ba</p>
-                <p class="popup-price">$${listing.list_price.toLocaleString()}</p>
+                <p class="popup-price">$${listing.listPrice.toLocaleString()}</p>
               </div>`
             );
 

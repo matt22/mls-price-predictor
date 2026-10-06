@@ -68,7 +68,7 @@ export default function Dashboard() {
             <>
               <div className="listing-details">
                 <h3>{selectedListing.address}</h3>
-                <p className="location">{selectedListing.city}, {selectedListing.state} {selectedListing.zip_code}</p>
+                <p className="location">{selectedListing.city}, {selectedListing.state} {selectedListing.zipCode}</p>
                 
                 <div className="property-info">
                   <div className="info-item">
@@ -88,12 +88,12 @@ export default function Dashboard() {
                 <div className="price-section">
                   <div className="price-item">
                     <span className="label">List Price</span>
-                    <span className="price">${selectedListing.list_price.toLocaleString()}</span>
+                    <span className="price">${selectedListing.listPrice.toLocaleString()}</span>
                   </div>
                   {prediction && (
                     <div className="price-item prediction">
                       <span className="label">Predicted Price</span>
-                      <span className="price">${prediction.predicted_price.toLocaleString()}</span>
+                      <span className="price">${prediction.predictedPrice.toLocaleString()}</span>
                       <span className="confidence">Confidence: {(prediction.confidence * 100).toFixed(0)}%</span>
                     </div>
                   )}
