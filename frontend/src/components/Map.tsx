@@ -34,24 +34,22 @@ export function Map() {
 
         // Add markers
         data.data.forEach((listing: Listing) => {
-          {
-            const el = document.createElement('div');
-            el.className = 'marker';
-            el.innerHTML = `<div class="marker-price">$${(listing.listPrice / 1000).toFixed(0)}k</div>`;
+          const el = document.createElement('div');
+          el.className = 'marker';
+          el.innerHTML = `<div class="marker-price">$${(listing.listPrice / 1000).toFixed(0)}k</div>`;
 
-            const popup = new maplibregl.Popup({ offset: 25 }).setHTML(
-              `<div class="popup-content">
-                <p class="popup-address">${listing.address}</p>
-                <p class="popup-details">${listing.beds}bd ${listing.baths}ba</p>
-                <p class="popup-price">$${listing.listPrice.toLocaleString()}</p>
-              </div>`
-            );
+          const popup = new maplibregl.Popup({ offset: 25 }).setHTML(
+            `<div class="popup-content">
+              <p class="popup-address">${listing.address}</p>
+              <p class="popup-details">${listing.beds}bd ${listing.baths}ba</p>
+              <p class="popup-price">$${listing.listPrice.toLocaleString()}</p>
+            </div>`
+          );
 
-            new maplibregl.Marker(el)
-              .setLngLat([listing.longitude, listing.latitude])
-              .setPopup(popup)
-              .addTo(instance);
-          }
+          new maplibregl.Marker(el)
+            .setLngLat([listing.longitude, listing.latitude])
+            .setPopup(popup)
+            .addTo(instance);
         });
       } catch (error) {
         console.error('Error loading listings:', error);
