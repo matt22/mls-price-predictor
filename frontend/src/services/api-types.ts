@@ -64,7 +64,7 @@ export interface paths {
         };
         /**
          * Get or calculate the price prediction for a listing
-         * @description Returns the stored prediction if one exists, ignoring the query parameters. Otherwise calculates, stores and returns a new one.
+         * @description Returns the stored prediction if it was made with the same interestRate and marketTrend. Otherwise calculates a new one, stores it in place of the old one, and returns it.
          */
         get: operations["getPrediction"];
         put?: never;
