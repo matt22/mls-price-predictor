@@ -14,22 +14,27 @@ export function Map() {
     // Initialize map
     if (!mapContainer.current) return;
 
-    map.current = new maplibregl.Map({
+    // Scope markers to this effect run: under StrictMode (or any remount) a
+    // slow request from the first run must not add markers to the next map.
+    let cancelled = false;
+    const instance = new maplibregl.Map({
       container: mapContainer.current,
       style: 'https://tiles.openfreemap.org/styles/positron',
       center: [-95.7129, 37.0902], // Center of USA
       zoom: 4,
     });
+    map.current = instance;
 
     // Load listings
     const loadListings = async () => {
       try {
         const data = await getListings({ limit: 100 });
+        if (cancelled) return;
         setListings(data.data);
 
         // Add markers
         data.data.forEach((listing: Listing) => {
-          if (map.current) {
+          {
             const el = document.createElement('div');
             el.className = 'marker';
             el.innerHTML = `<div class="marker-price">$${(listing.listPrice / 1000).toFixed(0)}k</div>`;
@@ -45,7 +50,7 @@ export function Map() {
             new maplibregl.Marker(el)
               .setLngLat([listing.longitude, listing.latitude])
               .setPopup(popup)
-              .addTo(map.current);
+              .addTo(instance);
           }
         });
       } catch (error) {
@@ -58,7 +63,8 @@ export function Map() {
     loadListings();
 
     return () => {
-      map.current?.remove();
+      cancelled = true;
+      instance.remove();
     };
   }, []);
 
