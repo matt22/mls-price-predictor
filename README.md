@@ -201,6 +201,15 @@ mls-price-predictor/
 ### Health
 - `GET /health` - Server health check
 
+### OpenAPI spec
+- `GET /openapi.json` - OpenAPI 3.1 description of the endpoints above
+- `GET /docs` - Swagger UI for browsing and trying requests
+
+The spec is generated from the zod schemas in `backend/src/models/`, which also
+validate request input. After changing a schema or route, run `npm run openapi`
+in `backend/` to refresh the committed `backend/openapi.json`; `npm test` fails
+if it is stale or if the schemas drift from the migration's columns.
+
 ## 📊 Database Schema
 
 ### listings

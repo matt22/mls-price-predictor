@@ -1,8 +1,9 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { db } from '../utils/database.js';
-import { ListingFilters } from '../models/Listing.js';
+import { IdParamsSchema, ListingFiltersSchema } from '../models/Listing.js';
 import { logger } from '../utils/logger.js';
 import { httpError } from '../utils/errorHandler.js';
+import { parseInput } from '../utils/validate.js';
 
 const router = Router();
 
@@ -21,9 +22,9 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
       lat,
       lng,
       radiusMiles,
-      page = 1,
-      limit = 20,
-    } = req.query;
+      page,
+      limit,
+    } = parseInput(ListingFiltersSchema, req.query);
 
     let where = 'WHERE 1=1';
     const params: any[] = [];
@@ -74,21 +75,19 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     }
 
     // Pagination
-    const pageNum = Math.max(1, Number(page) || 1);
-    const limitNum = Math.min(100, Number(limit) || 20);
-    const offset = (pageNum - 1) * limitNum;
+    const offset = (page - 1) * limit;
 
     const [{ total }] = await db.query(`SELECT COUNT(*) AS total FROM listings ${where}`, params);
     const listings = await db.query(
       `SELECT * FROM listings ${where} ORDER BY created_at DESC LIMIT $${paramIndex++} OFFSET $${paramIndex++}`,
-      [...params, limitNum, offset],
+      [...params, limit, offset],
     );
 
     res.json({
       data: listings,
       pagination: {
-        page: pageNum,
-        limit: limitNum,
+        page,
+        limit,
         total,
       },
     });
@@ -100,7 +99,7 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
 // Get single listing
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { id } = req.params;
+    const { id } = parseInput(IdParamsSchema, req.params);
     const listing = await db.oneOrNone('SELECT * FROM listings WHERE id = $1', [id]);
 
     if (!listing) {

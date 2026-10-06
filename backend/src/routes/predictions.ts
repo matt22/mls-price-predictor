@@ -3,14 +3,17 @@ import { db } from '../utils/database.js';
 import { calculatePricePrediction } from '../services/predictionEngine.js';
 import { logger } from '../utils/logger.js';
 import { httpError } from '../utils/errorHandler.js';
+import { parseInput } from '../utils/validate.js';
+import { BatchPredictionRequestSchema, PredictionQuerySchema } from '../models/Prediction.js';
+import { IdParamsSchema } from '../models/Listing.js';
 
 const router = Router();
 
 // Get prediction for a listing
 router.get('/listing/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { id } = req.params;
-    const { interestRate = 6.8, marketTrend = 0 } = req.query;
+    const { id } = parseInput(IdParamsSchema, req.params);
+    const { interestRate, marketTrend } = parseInput(PredictionQuerySchema, req.query);
 
     // Check if prediction already exists
     const existingPrediction = await db.oneOrNone(
@@ -61,11 +64,7 @@ router.get('/listing/:id', async (req: Request, res: Response, next: NextFunctio
 // Batch predictions
 router.post('/batch', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { listingIds, interestRate = 6.8 } = req.body;
-
-    if (!Array.isArray(listingIds) || listingIds.length === 0) {
-      return next(httpError(400, 'Invalid listingIds'));
-    }
+    const { listingIds, interestRate } = parseInput(BatchPredictionRequestSchema, req.body);
 
     const predictions = [];
 

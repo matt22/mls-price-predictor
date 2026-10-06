@@ -4,7 +4,8 @@ import { logger } from '../utils/logger.js';
 import { db } from '../utils/database.js';
 
 interface PredictionInput {
-  listing: Listing;
+  // daysOnMarket is not stored yet; the adjustment applies once it is.
+  listing: Listing & { daysOnMarket?: number | null };
   interestRate: number;
   marketTrend?: number;
 }

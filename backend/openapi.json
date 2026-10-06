@@ -1,0 +1,718 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "MLS Price Predictor API",
+    "version": "1.0.0",
+    "description": "Listings synced from RentCast and rule-based price predictions.",
+    "license": {
+      "name": "MIT",
+      "identifier": "MIT"
+    }
+  },
+  "security": [],
+  "servers": [
+    {
+      "url": "http://localhost:3001"
+    }
+  ],
+  "components": {
+    "schemas": {
+      "Listing": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "rentcastId": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 2
+          },
+          "zipCode": {
+            "type": "string"
+          },
+          "latitude": {
+            "type": "number"
+          },
+          "longitude": {
+            "type": "number"
+          },
+          "listPrice": {
+            "type": "number"
+          },
+          "beds": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "baths": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "sqft": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "propertyType": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "yearBuilt": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "listingStatus": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "id",
+          "rentcastId",
+          "address",
+          "city",
+          "state",
+          "zipCode",
+          "latitude",
+          "longitude",
+          "listPrice",
+          "beds",
+          "baths",
+          "sqft",
+          "propertyType",
+          "yearBuilt",
+          "listingStatus",
+          "createdAt",
+          "updatedAt"
+        ]
+      },
+      "ListingsPage": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Listing"
+            }
+          },
+          "pagination": {
+            "type": "object",
+            "properties": {
+              "page": {
+                "type": "integer"
+              },
+              "limit": {
+                "type": "integer"
+              },
+              "total": {
+                "type": "integer",
+                "description": "Listings matching the filters across all pages."
+              }
+            },
+            "required": [
+              "page",
+              "limit",
+              "total"
+            ]
+          }
+        },
+        "required": [
+          "data",
+          "pagination"
+        ]
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "integer"
+              },
+              "message": {
+                "type": "string"
+              },
+              "details": {
+                "description": "Only when NODE_ENV=development."
+              }
+            },
+            "required": [
+              "status",
+              "message"
+            ]
+          }
+        },
+        "required": [
+          "error"
+        ]
+      },
+      "PredictionFactors": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "interestRate": {
+            "type": "number"
+          },
+          "comps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "distance": {
+                  "type": "number",
+                  "description": "Miles from the listing."
+                },
+                "similarity": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "id",
+                "price",
+                "distance",
+                "similarity"
+              ]
+            }
+          },
+          "marketTrend": {
+            "type": "number"
+          },
+          "seasonalAdjustment": {
+            "type": "number"
+          },
+          "pricePerSqft": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "interestRate",
+          "comps",
+          "marketTrend",
+          "seasonalAdjustment",
+          "pricePerSqft"
+        ]
+      },
+      "Prediction": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "listingId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "predictedPrice": {
+            "type": "number"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "factors": {
+            "$ref": "#/components/schemas/PredictionFactors"
+          },
+          "interestRate": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "estimatedDelisting": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "delistingReason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "id",
+          "listingId",
+          "predictedPrice",
+          "confidence",
+          "factors",
+          "interestRate",
+          "estimatedDelisting",
+          "delistingReason",
+          "createdAt",
+          "updatedAt"
+        ]
+      },
+      "BatchPredictionResponse": {
+        "type": "object",
+        "properties": {
+          "predictions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Prediction"
+            }
+          },
+          "count": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "predictions",
+          "count"
+        ]
+      },
+      "BatchPredictionRequest": {
+        "type": "object",
+        "properties": {
+          "listingIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "minItems": 1
+          },
+          "interestRate": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "default": 6.8
+          }
+        },
+        "required": [
+          "listingIds"
+        ]
+      }
+    },
+    "parameters": {}
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "getHealth",
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "Server is up.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "ok"
+                      ]
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    }
+                  },
+                  "required": [
+                    "status",
+                    "timestamp"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/listings": {
+      "get": {
+        "operationId": "listListings",
+        "summary": "List listings, newest first",
+        "tags": [
+          "Listings"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "description": "Case-insensitive substring match."
+            },
+            "required": false,
+            "name": "city",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2
+            },
+            "required": false,
+            "name": "state",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "required": false,
+            "name": "zipCode",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "required": false,
+            "name": "minPrice",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "required": false,
+            "name": "maxPrice",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "required": false,
+            "name": "beds",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "required": false,
+            "name": "baths",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "required": false,
+            "name": "propertyType",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": -90,
+              "maximum": 90
+            },
+            "required": false,
+            "name": "lat",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": -180,
+              "maximum": 180
+            },
+            "required": false,
+            "name": "lng",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "description": "Applied only when lat and lng are also set."
+            },
+            "required": false,
+            "name": "radiusMiles",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            },
+            "required": false,
+            "name": "page",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            },
+            "required": false,
+            "name": "limit",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "One page of listings.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListingsPage"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid path parameter, query parameter or body.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/listings/{id}": {
+      "get": {
+        "operationId": "getListing",
+        "summary": "Get one listing",
+        "tags": [
+          "Listings"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "required": true,
+            "name": "id",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The listing.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Listing"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid path parameter, query parameter or body.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No listing with that id.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/predictions/listing/{id}": {
+      "get": {
+        "operationId": "getPrediction",
+        "summary": "Get or calculate the price prediction for a listing",
+        "description": "Returns the stored prediction if one exists, ignoring the query parameters. Otherwise calculates, stores and returns a new one.",
+        "tags": [
+          "Predictions"
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "required": true,
+            "name": "id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "default": 6.8,
+              "description": "Mortgage rate, in percent."
+            },
+            "required": false,
+            "name": "interestRate",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "default": 0,
+              "description": "Fractional adjustment, e.g. 0.02 for +2%."
+            },
+            "required": false,
+            "name": "marketTrend",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The prediction.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Prediction"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid path parameter, query parameter or body.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No listing with that id.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/predictions/batch": {
+      "post": {
+        "operationId": "batchPredictions",
+        "summary": "Calculate predictions for several listings",
+        "description": "Unknown listing ids and per-listing failures are skipped, so `count` can be lower than the number of ids sent.",
+        "tags": [
+          "Predictions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatchPredictionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The predictions that succeeded.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BatchPredictionResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid path parameter, query parameter or body.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "webhooks": {}
+}
